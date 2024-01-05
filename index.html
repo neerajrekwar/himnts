@@ -54,7 +54,47 @@
         <h1>Himnts Events & Decoration </h1>
         <p>Your one-stop solution for creative balloon arrangements</p>
     </header>
+    <main>
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-slider">
+            <!-- Add your gallery images here -->
+            <div><img src="image1.jpg" alt="Decoration 1"></div>
+            <div><img src="image2.jpg" alt="Decoration 2"></div>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
 
+    <!-- Your existing HTML structure goes here -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.gallery-slider').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+                nextArrow: '<button type="button" class="slick-next">Next</button>',
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    
     <section>
         <h2>Our Services</h2>
         <p>Transform your events with our unique balloon decorations. From birthdays to weddings, we've got you covered!</p>
@@ -72,10 +112,11 @@
         <p>Email: connect.himnts@gmail.com</p>
         <p>Phone: +91 (888) 235-8053</p>
     </section>
-
+    </main>
     <footer>
         <p>&copy; 2024 Himnts Decoration Services</p>
     </footer>
+        
 </body>
 
 </html>
