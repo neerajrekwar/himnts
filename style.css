@@ -36,6 +36,7 @@
         }
 
         .package-details {
+            text-align: left;
             font-size: 18px;
             color: #555;
             margin-bottom: 15px;
