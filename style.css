@@ -87,4 +87,6 @@
 .pks-section{
   border: 2px solid;
   border-radius: 5px;
+  padding: 5px;
+  background-color: #FEF9EF;
 }
