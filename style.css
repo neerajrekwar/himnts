@@ -1,9 +1,7 @@
 *, html{
   box-sizing: boder-box;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  weight: 400;
+  margin: auto;
+  padding: auto;
   font-family: 'alata', sans-serif;
   scroll-behavior: smooth;
 }
