@@ -1,5 +1,5 @@
 *, html{
-  font-family: 'Arial', sans-serif;
+  font-family: 'alata', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -14,10 +14,11 @@
 }
 
  body {
-            
-            background-color: #f8f8f8;
-            text-align: center;
-        }
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  text-align: center;
+       }
 
         .birthday-banner {
             background-color: #ffd700;
