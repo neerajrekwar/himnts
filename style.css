@@ -1,6 +1,7 @@
 *, html{
   font-family: 'alata', sans-serif;
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 .gallery-slider img{
