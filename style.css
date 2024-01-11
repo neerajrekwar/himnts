@@ -90,3 +90,9 @@
   padding: 5px;
   background-color: #FEF9EF;
 }
+.price{
+  font-size: 1.7em;
+  weight: bold;
+  color: #519E8A;
+  text-align: left;
+}
