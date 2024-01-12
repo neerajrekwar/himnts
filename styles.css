@@ -96,3 +96,24 @@
   text-align: left;
   background-color: red;
 }
+.cards {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(336, 2fr)); */
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.507);
+  backdrop-filter: blur(1px);
+  margin: 20px 20px 0px 20px;
+  padding: 30px;
+  border-radius: 15px;
+}
