@@ -79,7 +79,6 @@ html{
 
 .pks-section{
   border: 2px solid;
-  border-radius: 5px;
   background-color: #FEF9EF;
 }
 .price{
@@ -87,7 +86,6 @@ html{
   weight: bold;
   color: #519E8A;
   text-align: left;
-  background-color: red;
 }
 .cards {
   margin: 0 auto;
