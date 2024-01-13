@@ -25,15 +25,13 @@ html{
 
         .birthday-banner {
             background-color: #ffd700;
-            padding: 10px;
-            border-radius: 5px;
         }
 
         .birthday-message {
             font-size: 24px;
             color: #333;
             font-weight: bold;
-            margin: 10px;
+            margin: 15px;
             padding: 10px 10px 20px 20px;
             
         }
