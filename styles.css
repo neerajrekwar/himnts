@@ -69,7 +69,7 @@ html{
         footer {
             background-color: #F06543;
             color: #fff;
-            padding: 1em;
+            padding: 1em 2rem;
             text-align: center;
         }
 #gallery {
@@ -82,7 +82,7 @@ html{
   background-color: #FEF9EF;
 }
 .price{
-  font-size: 1.7em;
+  font-size: 1em;
   weight: bold;
   color: #519E8A;
   text-align: left;
