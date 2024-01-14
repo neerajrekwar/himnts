@@ -2,11 +2,11 @@
   font-family: 'alata', sans-serif;
   scroll-behavior: smooth;
   font-size: 16px;
-  background-color: #353535;
-  opacity: 0.5;
+  
 }
 html{
-  
+  background-color: #353535;
+  opacity: 0.5;
 }
 .gallery-slider img{
   max-width: 100%;
