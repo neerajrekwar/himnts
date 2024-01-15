@@ -89,11 +89,10 @@
   background-color: #FEF9EF;
 }
 .price{
-  font-size: 1.7em;
+  font-size: 1.5em;
   weight: bold;
-  color: #519E8A;
+  color: #353535;
   text-align: left;
-  background-color: red;
 }
 .cards {
   margin: 0 auto;
