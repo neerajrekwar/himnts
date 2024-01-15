@@ -113,7 +113,7 @@
   text-align: center;
   background-color: rgba(255, 255, 255, 0.507);
   backdrop-filter: blur(1px);
-  margin: 20px 20px 0px 20px;
-  padding: 30px;
+  margin: 10px 10px 0px 10px;
+  padding: 20px;
   border-radius: 15px;
 }
