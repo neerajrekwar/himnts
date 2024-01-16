@@ -144,5 +144,9 @@ footer {
     .book-card-img img {
       width: 100%;
       border-radius: 5px;
+      background-repeat: no-repeat;
+      background-position: center;
+      object-fit: cover;
+      background-size: 6px, auto, contain;
     }
 
