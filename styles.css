@@ -26,9 +26,9 @@ body {
 
 .birthday-banner {
 	background-color: #ffd700;
-	padding: 10px;
+	/* padding: 10px;*/
 	border-radius: 5px;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 }
 
 .birthday-message {
@@ -39,7 +39,7 @@ body {
 
 .decoration-package {
 	background-color: #ffffff;
-	padding: 20px;
+	/*padding: 20px;*/
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
