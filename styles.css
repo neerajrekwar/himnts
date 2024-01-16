@@ -58,11 +58,8 @@ header {
 }
 
 img {
+	width:auto;
 	height: 300px;
-}
-
-.slick-prev+.slick-prev {
-	color: #1e1e24;
 }
 
 section {
@@ -101,6 +98,7 @@ footer {
 }
 
 .cards {
+	max-width: 97%;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
