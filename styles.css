@@ -132,3 +132,19 @@ footer {
       font-weight: bold;
       border-radius: 5px;
     }
+.booking-buttons{ 
+	display: flex;
+	}
+.book-card-img {
+      width: 300px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .book-card-img img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
