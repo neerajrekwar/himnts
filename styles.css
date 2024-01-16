@@ -50,11 +50,6 @@ body {
 	color: #555;
 }
 
-margin: 0;
-padding: 0;
-background-color: #f4f4f4;
-}
-
 header {
 
 	color: #1e1e24;
@@ -71,7 +66,7 @@ img {
 }
 
 section {
-	padding: 1em;
+	padding: 2em;
 	text-align: center;
 }
 
