@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^himnts\.vercel\.app [NC]
-RewriteRule ^(.*)$ https://www.himnts.vercel.app/$1 [L,R=301]
