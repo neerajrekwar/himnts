@@ -64,6 +64,17 @@
          <!-- Your existing HTML structure goes here -->
          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+         <script>
+            $(document).ready(function(){
+    $('.carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 2000, // Adjust the speed as needed
+        dots: true, // Show navigation dots
+        arrows: true // Show navigation arrows
+        // Add more configuration options based on your requirements
+    });
+});
+         </script>
          
          <h2>HIMNTS Packages</h2>
          <p>Transform your events with our unique balloon decorations. From birthdays to weddings, we've got you covered!</p>
