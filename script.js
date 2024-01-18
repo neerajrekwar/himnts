@@ -4,6 +4,7 @@ function displaySelectedPackage() {
     document.getElementById("selected-package").innerText = selectedPackage;
 }
 
+
 $(document).ready(function(){
     $('.carousel').slick({
         autoplay: true,
