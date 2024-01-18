@@ -12,5 +12,5 @@ $(document).ready(function(){
         dots: true, // Show navigation dots
         arrows: true // Show navigation arrows
         // Add more configuration options based on your requirements
-    });
+    }); //66
 });
