@@ -5,7 +5,7 @@
 	text-align: center;
 }
 
-.carousel #gallery div{
+.carousel{
 	border: solid 2px;
 	display: flex;
 	align-item: center;
@@ -81,20 +81,13 @@ footer {
 
 #gallery {
         border: solid 2px;
-	width: 0 auto;
+	width: 100%;
 }
 
 .pks-section {
 	border: 2px solid;
 	border-radius: 5px;
 	background-color: #FEF9EF;
-}
-
-.price {
-	font-size: 1.5em;
-	weight: bold;
-	color: #353535;
-	text-align: left;
 }
 
 .cards {
