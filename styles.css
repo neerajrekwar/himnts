@@ -5,7 +5,7 @@
 	text-align: center;
 }
 
-.carousel #gallery {
+.carousel #gallery div{
 	border: solid 2px;
 	display: flex;
 	align-item: center;
