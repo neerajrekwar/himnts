@@ -5,8 +5,8 @@
 }
 
 
-
- #crousal {
+#crousal {
+	border: solid 2px;
 	height: 400px;
 	margin: 0 auto;
 	background-repeat: no-repeat;
