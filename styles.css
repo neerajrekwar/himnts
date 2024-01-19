@@ -4,15 +4,16 @@
 	font-size: 16px;
 }
 
-#carousel div {
+#carousel {
 	border: solid 2px;
-	height: 400px;
+}
+	/*height: 400px;
 	margin: 0 auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	object-fit: cover;
 	background-size: 6px, auto, contain;
-}
+}*/
 
 body {
 	margin: 0;
