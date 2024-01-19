@@ -5,8 +5,11 @@
 	text-align: center;
 }
 
-.carousel {
+.carousel #gallery {
 	border: solid 2px;
+	display: flex;
+	align-item: center;
+	justify-content: center;
 }
 /* 
         
