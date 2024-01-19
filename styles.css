@@ -7,9 +7,6 @@
 
 .carousel{
 	border: solid 2px;
-	display: flex;
-	align-item: center;
-	justify-content: center;
 }
 /* 
         
@@ -79,9 +76,9 @@ footer {
 	text-align: center;
 }
 
-#gallery {
-        border: solid 2px;
-	width: 100%;
+#gallery .carousel {
+        border: solid 2px red;
+	width: 70%;
 }
 
 .pks-section {
