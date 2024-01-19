@@ -5,8 +5,9 @@
 	text-align: center;
 }
 
-.carousel{
+.carousel div{
 	border: solid 2px;
+	margin: 0 auto;
 }
 /* 
         
