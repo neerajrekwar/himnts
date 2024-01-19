@@ -4,6 +4,11 @@
 	font-size: 16px;
 }
 
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 #carousel img {
 	border: solid 2px;
 	height: 400px;
