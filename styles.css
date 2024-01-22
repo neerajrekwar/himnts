@@ -77,7 +77,7 @@ footer {
 	text-align: center;
 }
 
-#gallery .carousel{
+body #gallery .carousel{
         border: solid 2px red;
 	display: flex; 
 	justify-content: center;
