@@ -5,7 +5,7 @@
 	text-align: center;
 }
 
-.carousel div img{
+.carousel{
 	border: solid 2px;
 	margin: 0 auto;
 }
