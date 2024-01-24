@@ -79,10 +79,10 @@ footer {
 #gallery .carousel{
         border: solid 2px red;
 	display: flex; 
-	overflow: hidden;
+/* 	overflow: hidden; */
 	justify-content: center;
 	align-items: center;
-	max-width: 100%;
+/* 	max-width: 100%; */
 }
 
 .pks-section {
