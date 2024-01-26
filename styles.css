@@ -5,6 +5,90 @@
 	text-align: center;
 }
 
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.logo{
+  margin:10px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  aspect-ratio: 1/1;
+  text-decoration: none;
+  color:#000;
+  font-size: 18px;
+}
+
+.navigation {
+    padding: 3em;
+    max-width: 12px;
+    display: flex;
+    gap: clamp(2rem, 8vw, 4rem);
+}
+
+button {
+    background: transparent;
+/*  border: 1px solid var(--button-color, #404040); */
+    border-radius: 2px;
+}
+.button-three{
+    --button-color: #000;
+}
+
+.button-three .hamburger{
+    transition: translate 1s, rotate 1s; 
+}
+.button-three[aria-expanded="true"] .hamburger{
+    translate: 0px 0px;
+}
+.button-three .line{
+    transition: 1s;
+    stroke-dasharray: 60 31 60 300;
+}
+.button-three[aria-expanded="true"] .line{
+    stroke-dasharray: 60 105 60 300;
+    stroke-dashoffset: -90;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.nav-box a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.main-menu{
+    display: flex;
+}
+
+.main-menu-mini{
+    display: none;
+}
+.navlink {
+  display: flex;
+}
+
+.navlink li{
+      display: flex;
+      margin: 10px;
+    }
+
+.navlink li a {
+    color: #000;
+    transition: 0.5s;
+}
+.navbar li a:hover{
+      color: azure;
+      background-color: #000;
+}
+
 .carousel img{
 	border: solid 2px;
 /* 	margin: 0 auto; */
