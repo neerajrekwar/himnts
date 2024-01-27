@@ -31,7 +31,10 @@
 }
 
 
-
+button{
+	border: none;
+	background: transparent;
+}
 .button-three {
 	--button-color: #000;
 }
