@@ -30,10 +30,7 @@
 	gap: clamp(2rem, 8vw, 4rem);
 }
 
-button {
-	background: transparent;
-	/*  border: 1px solid var(--button-color, #404040); */
-}
+
 
 .button-three {
 	--button-color: #000;
@@ -237,6 +234,8 @@ footer {
 		position: absolute;
 		top: 60px;
 		right: 20px;
+		border: 2px solid:
+	        border-radius: 5px;
 		background-color: transparent;
 		backdrop-filter: blur(4px);
 		width: 40%;
