@@ -1,7 +1,7 @@
 const buttonThree = document.querySelector('.button-three');
 
 buttonThree.addEventListener('click', () => {
-    const menu = document.querySelectore('.navbar');
+    const menu = document.querySelector('.navbar');
     menu.classList.toggle('active');
     const isOpened = buttonThree.getAttribute('aria-expanded');
     if (isOpened === 'false') {
@@ -10,4 +10,3 @@ buttonThree.addEventListener('click', () => {
         buttonThree.setAttribute('aria-expanded', 'false');
     }
 })
-
