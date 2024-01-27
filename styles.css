@@ -229,13 +229,13 @@ footer {
 	.navbar.active {
 		display: block;
 		justify-content: center;
-		align-item: center;
+		align-items: center;
 		flex-direction: column;
 		position: absolute;
 		top: 60px;
 		right: 20px;
-		border: 2px solid:
-	        border-radius: 5px;
+		border: 2px solid;
+	    border-radius: 5px;
 		background-color: transparent;
 		backdrop-filter: blur(4px);
 		width: 40%;
