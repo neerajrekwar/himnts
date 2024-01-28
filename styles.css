@@ -153,6 +153,10 @@ footer {
 	padding: 1em;
 	text-align: center;
 }
+#gallery{
+	height: 200px;
+	max-width: 100%;
+}
 
 #gallery .carousel {
 	border: solid 2px red;
