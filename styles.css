@@ -198,14 +198,14 @@ footer {
 @media all and (max-width: 767px) {
 
 	body {
-		width: 96%;
+		width: 100%;
 		/* background: url(images/photos/stacked-waves-mb.svg); */
 		background-repeat: no-repeat;
 		background-position: center;
 		object-fit: fill;
 		background-size: cover;
 		/* border: 5px solid rgb(82, 207, 89); */
-		margin: 10px;
+		margin: 0;
 	}
 
 	.main-menu-mini {
