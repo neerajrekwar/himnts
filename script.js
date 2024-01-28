@@ -10,3 +10,14 @@ buttonThree.addEventListener('click', () => {
         buttonThree.setAttribute('aria-expanded', 'false');
     }
 })
+
+
+  $(document).ready(function(){
+    $('.vertical-slider').slick({
+      vertical: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
+  });
