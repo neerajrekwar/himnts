@@ -156,6 +156,7 @@ footer {
 #gallery{
 	height: 200px;
 	max-width: 100%;
+	border: 2px solid rgb(94, 113, 106);
 }
 #gallery .carousel {
 	border: solid 2px red;
