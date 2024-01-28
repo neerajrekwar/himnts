@@ -198,7 +198,7 @@ footer {
 @media all and (max-width: 767px) {
 
 	body {
-		width: 100%;
+		width: 96%;
 		/* background: url(images/photos/stacked-waves-mb.svg); */
 		background-repeat: no-repeat;
 		background-position: center;
