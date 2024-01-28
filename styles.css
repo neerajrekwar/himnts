@@ -247,4 +247,5 @@ footer {
 		background-color: transparent;
 		backdrop-filter: blur(4px);
 		width: 40%;
+		z-index: -1;
 	}
