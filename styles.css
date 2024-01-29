@@ -270,11 +270,7 @@ footer {
 	}
 
 	.carousel {
-		height: 200px;
-		max-width: 100%;
-		border: 2px solid rgb(94, 113, 106);
-		margin: 10px;
-		border-radius: 20px;
+		width: 30%;
 	}
 
 	.carousel img {
