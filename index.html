@@ -12,13 +12,14 @@
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <script src="script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!-- Owl Carousel JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <!-- Custom Styles -->
- <!-- <link rel="stylesheet" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/bootstrap/5.0/bootstrap.min.css" integrity="sha384-wSTiTaVrjtFhd4E5LD6/LshkAgJ1jD0B8Lr+If3RpAZL4/L8zi4weXIi01q1bh1f" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/bootstrap/5.0/bootstrap.min.css" integrity="sha384-wSTiTaVrjtFhd4E5LD6/LshkAgJ1jD0B8Lr+If3RpAZL4/L8zi4weXIi01q1bh1f" crossorigin="anonymous"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
@@ -88,9 +89,29 @@
         <div class="item"><img src="assets/gallery-Photo/IMG20230815213933.jpg" alt="Image 3"></div>
         <!-- Add more images as needed -->
       </div>
+      <script>
+        $(document).ready(function () {
+          $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+              0: {
+                items: 1
+              },
+              600: {
+                items: 3
+              },
+              1000: {
+                items: 5
+              }
+            }
+          });
+        });
+      </script>
     </div>
     <!-- Your existing HTML structure goes here -->
-    
+
     <h2>HIMNTS Packages</h2>
     <p>Transform your events with our unique balloon decorations. From birthdays to weddings, we've got you covered!</p>
     <section>
