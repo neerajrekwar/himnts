@@ -10,35 +10,3 @@ buttonThree.addEventListener('click', () => {
         buttonThree.setAttribute('aria-expanded', 'false');
     }
 })
-
-  $(document).ready(function(){
-    // Initialize each carousel
-    $('.carousel').slick({
-      autoplay: true,
-      autoplaySpeed: 2000,
-      dots: true,
-      arrows: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    });
-  });
-
-
-
-

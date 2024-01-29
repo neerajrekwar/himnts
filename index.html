@@ -96,9 +96,35 @@
       </div>
     </div>
     <!-- Your existing HTML structure goes here -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+    <script>
+      $(document).ready(function(){
+        // Initialize each carousel
+        $('.carousel').slick({
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+          arrows: false,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
     <h2>HIMNTS Packages</h2>
     <p>Transform your events with our unique balloon decorations. From birthdays to weddings, we've got you covered!</p>
     <section>
