@@ -261,18 +261,12 @@ footer {
 		z-index: 5;
 	}
 
-	.carousel-container {
-		width: 90%;
-		margin: auto;
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 50px;
+	.owl-carousel {
+		margin-top: 20px;
 	}
 
-	.carousel {
-		width: 30%;
-	}
-
-	.carousel img {
+	.owl-carousel .item img {
+		display: block;
 		width: 100%;
+		height: auto;
 	}
