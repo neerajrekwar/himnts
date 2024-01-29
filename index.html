@@ -12,9 +12,14 @@
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <script type="module" src="script.js"></script>
   <!-- jQuery CDN -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<!-- Slick JS CDN -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Slick Carousel CDN -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Slick Carousel JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <!-- <link rel="stylesheet" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/bootstrap/5.0/bootstrap.min.css" integrity="sha384-wSTiTaVrjtFhd4E5LD6/LshkAgJ1jD0B8Lr+If3RpAZL4/L8zi4weXIi01q1bh1f" crossorigin="anonymous"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,24 +84,17 @@
 
   </header>
   <main>
-   <div id="gallery">
-    <div class="vertical-slider">
-      <div><img src="assets/gallery-Photo/my-best-balloons-1.jpg" alt="best balloon decoration in delhi"></div>
-      <div><img src="assets/gallery-Photo/my-best-balloons-2.jpg" alt="best balloon decoration in dwarka"></div>
-      <!-- Add more slides as needed -->
-      <script>
-        $(document).ready(function(){
-          $('.vertical-slider').slick({
-            vertical: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-          });
-        });
-      </script>
+    <div id="gallery">
+      <div class="carousel-container">
+        <!-- First Carousel -->
+        <div class="carousel">
+          <div><img src="assets/gallery-Photo/my-best-balloons-1.jpg" alt="Category 1 Image 1"></div>
+          <div><img src="assets/gallery-Photo/my-best-balloons-2.jpg" alt="Category 1 Image 2"></div>
+          <div><img src="assets/gallery-Photo/IMG20230426200128.jpg" alt="Category 1 Image 3"></div>
+          <!-- Add more images as needed -->
+        </div>
+      </div>
     </div>
-   </div>
     <!-- Your existing HTML structure goes here -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -126,19 +124,19 @@
       </div>
       <div class="cards">
         <div class="card">
-            <h3>Valentine's day special Decoration</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ipsa totam. Aspernatur unde
-              laudantium tenetur id vero facere beatae asperiores ratione, obcaecati magni et sint eos deleniti iste
-              quisquam doloremque!</p>
-          </div>
+          <h3>Valentine's day special Decoration</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ipsa totam. Aspernatur unde
+            laudantium tenetur id vero facere beatae asperiores ratione, obcaecati magni et sint eos deleniti iste
+            quisquam doloremque!</p>
+        </div>
       </div>
       <div class="cards">
         <div class="card">
-            <h3>Occasion</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ipsa totam. Aspernatur unde
-              laudantium tenetur id vero facere beatae asperiores ratione, obcaecati magni et sint eos deleniti iste
-              quisquam doloremque!</p>
-          </div>
+          <h3>Occasion</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ipsa totam. Aspernatur unde
+            laudantium tenetur id vero facere beatae asperiores ratione, obcaecati magni et sint eos deleniti iste
+            quisquam doloremque!</p>
+        </div>
       </div>
     </section>
     <section>
