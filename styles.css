@@ -111,7 +111,7 @@ ul, li {
     border-radius: 3.33px;
     align-items: center;
     justify-content: space-around;
-
+}
 .navbar li a:hover {
 	color: azure;
 	background-color: #7bff00;
