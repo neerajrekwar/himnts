@@ -209,6 +209,17 @@ footer {
 	border: 1.5px solid;
 }
 
+.birthday {
+	border: #7bff00 2px solid;
+}
+
+.valentine {
+	border: #b62626 2px solid;
+}
+
+.occesion {
+	border: #ffd700 2px solid;
+}
 
 @media all and (max-width: 767px) {
 
