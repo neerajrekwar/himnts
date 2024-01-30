@@ -108,7 +108,7 @@ ul, li {
 	color: #000;
 	transition: 1s;
 	aspect-ratio: 1/1;
-	list-style: none;
+	text-decoration: none;
 }
 
 .navbar li a:hover {
