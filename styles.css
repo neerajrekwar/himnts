@@ -100,7 +100,8 @@ ul li {
 
 .navlink li {
 	display: flex;
-	
+	margin: 10px;
+	padding: 4px;
 }
 
 .navlink li a {
