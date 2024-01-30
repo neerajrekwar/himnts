@@ -25,11 +25,11 @@ main{
 	margin: 5px;
 }
 .logo {
-	margin: 10px;
-	padding: 10px 0;
+	margin: 5px;
+	padding: 5px;
 	display: flex;
 	align-items: center;
-	height: 20px;
+	height: auto;
 	aspect-ratio: 1/1;
 	text-decoration: none;
 	color: #000;
@@ -95,16 +95,18 @@ ul li {
 
 .navlink {
 	display: flex;
+
 }
 
 .navlink li {
 	display: flex;
-	margin: 10px;
+	
 }
 
 .navlink li a {
 	color: #000;
-	transition: 0.5s;
+	transition: 1s;
+	aspect-ratio: 1/1;
 }
 
 .navbar li a:hover {
