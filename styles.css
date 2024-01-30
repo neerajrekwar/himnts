@@ -110,11 +110,14 @@ ul, li {
 	aspect-ratio: 1/1;
 	text-decoration: none;
 	background-color: #7bff00;
+	border-radius: 3.33px;
 }
 
 .navbar li a:hover {
 	color: azure;
-	background-color: #000;
+	background-color: #7bff00;
+	border-radius: 3.33px;
+	/* background-color: #000; */
 }
 
 .carousel img {
