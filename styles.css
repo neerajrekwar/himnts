@@ -100,11 +100,11 @@ ul, li {
 }
 
 .navlink li a {
-	display: flex;
+    height: auto;
+    margin: 10px;
     color: #000;
     transition: 0.5s;
     /* aspect-ratio: 3/2; */
-    height: 47px;
     padding: 15px;
     text-decoration: none;
     background-color: #7bff00;
