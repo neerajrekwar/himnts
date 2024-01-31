@@ -100,7 +100,9 @@ ul, li {
 }
 
 .navlink li a {
-    height: auto;
+    height: 47px;
+display: felx;
+
     margin: 10px;
     color: #000;
     transition: 0.5s;
