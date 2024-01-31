@@ -256,8 +256,8 @@ footer {
 		display: block;
 	}
 
-	.navlink li {
-		display: block;
+	.navlink ul {
+		display: inline-block;
 	}
 
 	.navlink li a:hover {
