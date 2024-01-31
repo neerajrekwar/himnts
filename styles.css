@@ -97,6 +97,8 @@ ul, li {
 
 .navlink li {
 	display: flex;
+	margin:10px;
+	padding: 10px;
 }
 
 .navlink li a {
