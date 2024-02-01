@@ -10,7 +10,6 @@ buttonThree.addEventListener('click', () => {
         buttonThree.setAttribute('aria-expanded', 'false');
     }
 })
-
 // Your HTML content for the page 
 
     // JavaScript code for dynamically creating and appending a footer
@@ -20,6 +19,13 @@ buttonThree.addEventListener('click', () => {
         const footer = document.createElement('footer');
         footer.id = 'page-footer';
 
+        
+    }
+
+    // Function to apply createFooter to all pages
+    function applyFooterToAllPages() {
+        const pages = document.querySelectorAll('.page'); // Assuming each page has a common class 'page'
+        
         // Add your footer content here, for example:
         const footerContent = `
             <p>&copy; 2024 Your Website Name</p>
@@ -30,11 +36,6 @@ buttonThree.addEventListener('click', () => {
 
         // Append the footer to the body
         document.body.appendChild(footer);
-    }
-
-    // Function to apply createFooter to all pages
-    function applyFooterToAllPages() {
-        const pages = document.querySelectorAll('.page'); // Assuming each page has a common class 'page'
 
         pages.forEach(function(page) {
             const clonedFooter = createFooter(); // Create a new footer for each page
