@@ -207,7 +207,7 @@ footer{
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
+	text-align: left;
 	background-color: rgba(255, 255, 255, 0.507);
 	backdrop-filter: blur(1px);
 	margin: 10px 10px 0px 10px;
