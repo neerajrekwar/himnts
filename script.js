@@ -17,6 +17,7 @@ buttonThree.addEventListener('click', () => {
     function createFooter() {
         const footer = document.createElement('footer');
         footer.id = 'page-footer';
+    
 
         // Add your footer content here, for example:
         const footerContent = `
