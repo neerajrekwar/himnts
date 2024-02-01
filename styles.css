@@ -292,9 +292,9 @@ footer {
 	}
 
 	.navbar.active {
-		display: block;
+		display: flex;
 		justify-content: center;
-		align-items: center;
+        align-items: flex-start;
 		flex-direction: column;
 		position: absolute;
 		top: 60px;
