@@ -11,31 +11,37 @@ buttonThree.addEventListener('click', () => {
     }
 })
 
-// footer.js
+// Your HTML content for the page 
 
-// Function to create the footer content
-function createFooter() {
-    const footer = document.createElement('footer');
-    footer.id = 'page-footer';
+    // JavaScript code for dynamically creating and appending a footer
 
-    // Add your footer content here, for example:
-    const footerContent = `
-        <p>&copy; 2024 Your Website Name</p>
-        <!-- Additional footer content goes here -->
-    `;
+    // Function to create the footer content
+    function createFooter() {
+        const footer = document.createElement('footer');
+        footer.id = 'page-footer';
 
-    footer.innerHTML = footerContent;
+        // Add your footer content here, for example:
+        const footerContent = `
+            <p>&copy; 2024 Your Website Name</p>
+            <!-- Additional footer content goes here -->
+        `;
+        
+        footer.innerHTML = footerContent;
 
-    return footer;
-}
+        // Append the footer to the body
+        document.body.appendChild(footer);
+    }
 
-// Function to append the footer to the current page
-function appendFooter() {
-    const body = document.body;
-    const footer = createFooter();
-    body.appendChild(footer);
-}
+    // Function to apply createFooter to all pages
+    function applyFooterToAllPages() {
+        const pages = document.querySelectorAll('.page'); // Assuming each page has a common class 'page'
 
-// Call the function when the page is fully loaded
-document.addEventListener('DOMContentLoaded', appendFooter);
+        pages.forEach(function(page) {
+            const clonedFooter = createFooter(); // Create a new footer for each page
+            page.appendChild(clonedFooter);
+        });
+    }
+
+    // Call the function when the page is fully loaded
+    document.addEventListener('DOMContentLoaded', applyFooterToAllPages);
 
