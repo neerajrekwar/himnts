@@ -10,14 +10,15 @@ buttonThree.addEventListener('click', () => {
         buttonThree.setAttribute('aria-expanded', 'false');
     }
 })
-    // Your HTML content for the page 
+
+// Your HTML content for the page 
+
     // JavaScript code for dynamically creating and appending a footer
 
     // Function to create the footer content
     function createFooter() {
         const footer = document.createElement('footer');
         footer.id = 'page-footer';
-    
 
         // Add your footer content here, for example:
         const footerContent = `
