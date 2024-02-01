@@ -38,7 +38,7 @@ main {
 	display: flex;
 	align-items: center;
 	height: auto;
-	aspect-ratio: 1/1;
+	aspect-ratio: 1/2;
 	text-decoration: none;
 	color: #000;
 	font-size: 18px;
@@ -113,7 +113,7 @@ li {
 	color: #000;
 	transition: 0.5s;
 	/* aspect-ratio: 3/2; */
-	padding: 15px;
+	padding: 5px;
 	text-decoration: none;
 	border-radius: 3.33px;
 	/* display: flex;
@@ -124,8 +124,9 @@ li {
 .navbar li a:hover {
 	color: azure;
 	transition: margin-right 5px .2s;
-	background-color: #7bff00;
-	border-radius: 3.33px;
+	/* transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%); */
+	transform-origin: left 2px;
+
 }
 
 .carousel img {
