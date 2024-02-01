@@ -234,6 +234,11 @@ footer {
 	height: 200px;
 	aspect-ratio: 9/16;
 	overflow: hidden;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+	background-size: 6px, auto, contain;
 }
 
 
