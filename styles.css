@@ -161,7 +161,12 @@ section {
 
 	text-align: center;
 }
-
+footer{
+	height: 200px;
+	bottom: 0;
+	width: 100%;
+	background: #7bff00;
+}
 #gallery {
 	height: 200px;
 	max-width: 100%;
