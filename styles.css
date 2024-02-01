@@ -101,7 +101,6 @@ ul, li {
 }
 
 .navlink li a {
-    margin: 10px;
     color: #000;
     transition: 0.5s;
     /* aspect-ratio: 3/2; */
@@ -114,7 +113,7 @@ ul, li {
 }
 .navbar li a:hover {
 	color: azure;
-	transition: 10px cubic-bezier(0.075, 0.82, 0.165, 1); 
+	transition: margin-right 5px .2s; 
 	background-color: #7bff00;
 	border-radius: 3.33px;
 }
