@@ -37,12 +37,10 @@ nav {
 
 .navbar {}
 
-main {
-	margin: 5px;
-}
+main {}
 
 .logo {
-	margin: 15px 0;
+	margin: auto 15px;
 	display: flex;
 	align-items: center;
 	height: 85px;
@@ -163,9 +161,6 @@ body {
 	border-radius: 5px;
 	/*margin-bottom: 20px;*/
 }
-
-
-
 img {
 	width: auto;
 	height: 300px;
