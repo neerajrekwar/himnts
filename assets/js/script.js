@@ -1,4 +1,4 @@
-const buttonThree = document.querySelector('.my-nav-btn');
+const buttonThree = document.querySelector('.button-three');
 
 buttonThree.addEventListener('click', () => {
     const menu = document.querySelector('.navbar');
@@ -9,4 +9,4 @@ buttonThree.addEventListener('click', () => {
     } else {
         buttonThree.setAttribute('aria-expanded', 'false');
     }
-});
+})
