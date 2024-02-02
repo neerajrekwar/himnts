@@ -47,26 +47,38 @@ main {}
 	color: #000;
 	font-size: 18px;
 }
-.headline{
+
+.headline {
 	text-align: left;
 	font-size: 15px;
 	margin: 0px 10px;
 }
-.bio_box{
+
+.bio_box {
 	background-color: #7bff00;
 }
-.still-text1{
-	
-}
-.still-text2{
-	
-}
-.auto-type{
 
+.logo-txt {
+	display: inline-block;
+	font-size: 80px;
+	line-height: 0.9;
+	padding: 20px;
+	text-transform: uppercase;
+	background: radial-gradient(circle farthest-corner at center center,
+			white,
+			#111) no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
-.typed-cursor{
 
-}
+.still-text1 {}
+
+.still-text2 {}
+
+.auto-type {}
+
+.typed-cursor {}
+
 /* .navigation {
 	padding: 3em;
 	max-width: 12px;
@@ -179,6 +191,7 @@ body {
 	border-radius: 5px;
 	/*margin-bottom: 20px;*/
 }
+
 img {
 	width: auto;
 	height: 300px;
