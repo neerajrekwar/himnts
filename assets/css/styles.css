@@ -49,8 +49,11 @@ main {}
 }
 .headline{
 	text-align: left;
-	font-size: 16px;
+	font-size: 15px;
 	margin: 0px 10px;
+}
+.bio_box{
+	background-color: #7bff00;
 }
 .still-text{
 	
