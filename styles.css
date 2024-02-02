@@ -126,9 +126,9 @@ li {
 
 .navbar li a:hover {
 	color: rgb(0, 0, 0);
-	transition: margin-right 5px .2s;
-	/* transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%); */
-	transform-origin: left 200px .2s;
+	/* transition: margin-right 5px .2s;
+	/* transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%); 
+	transform-origin: left 200px .2s; */
 	content: '';
 	position: absolute;
 	margin-bottom: -1px;
