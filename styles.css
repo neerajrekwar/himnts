@@ -19,6 +19,7 @@ html {
 }
 
 header{
+	position: inherit;
 	height: 40px;
 	width: 100%;
 	border-bottom: .2px solid;
