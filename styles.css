@@ -112,6 +112,7 @@ li {
 .navlink li {
 	display: flex;
 	padding: 5px;
+	position: relative;
 }
 
 .navlink li a {
