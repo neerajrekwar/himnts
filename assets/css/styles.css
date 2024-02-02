@@ -47,6 +47,10 @@ main {}
 	color: #000;
 	font-size: 18px;
 }
+.headline{
+	text-align: left;
+	font-size: 16px;
+}
 .still-text{
 	
 }
@@ -54,7 +58,7 @@ main {}
 
 }
 .typed-cursor{
-	
+
 }
 /* .navigation {
 	padding: 3em;
