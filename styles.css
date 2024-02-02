@@ -19,16 +19,17 @@ html {
 }
 
 header{
-	position: relative;
-	height: 40px;
-	width: 100%;
-	border-bottom: .2px solid;
-}
-.header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
+}
+.header {
+	
+    position: relative;
+    height: 11.1rem;
+    z-index: 4;
+    flex-grow: 0;
+}
 }
 
 main {
