@@ -44,15 +44,5 @@ buttonThree.addEventListener("click", () => {
 //     // Call the function when the page is fully loaded
 //     document.addEventListener('DOMContentLoaded', applyFooterToAllPages);
 
-// Function to load and insert header
-function loadHeader() {
-  // Fetch and insert header
-  fetch("#header")
-    .then((response) => response.text())
-    .then((headerHtml) => {
-      document.body.insertAdjacentHTML("afterbegin", headerHtml);
-    });
-}
 
-// Call the function when the page is loaded
-document.addEventListener("DOMContentLoaded", loadHeader);
+
