@@ -20,16 +20,14 @@ html {
 
 header{
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    justify-content: space-around;
+    align-items: center;
 }
 .header {
-	
     position: relative;
     height: 11.1rem;
     z-index: 4;
     flex-grow: 0;
-}
 }
 
 main {
