@@ -1,3 +1,16 @@
+const myNavee = document.querySelector(".button-three");
+
+myNavee.addEventListener("click", () => {
+  const menu = document.querySelector(".navbar");
+  menu.classList.toggle("active");
+  const isOpened = myNavee.getAttribute("aria-expanded");
+  if (isOpened === "false") {
+    myNavee.setAttribute("aria-expanded", "true");
+  } else {
+    myNavee.setAttribute("aria-expanded", "false");
+  }
+});
+
 $(function () {
   $("#header").load("/assets/html/header.html");
   $("#footer").load("/assets/html/footer.html");
@@ -35,5 +48,3 @@ $(function () {
 
 //     // Call the function when the page is fully loaded
 //     document.addEventListener('DOMContentLoaded', applyFooterToAllPages);
-
-

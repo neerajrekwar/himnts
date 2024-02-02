@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <a href="/" class="logo">himnts</a>
 <nav class="navbar">
   <ul class="navlink">
@@ -23,18 +21,4 @@
     </button>
   </div>
 </div>
-<script>
-  const buttonThree = document.querySelector(".button-three");
 
-buttonThree.addEventListener("click", () => {
-  const menu = document.querySelector(".navbar");
-  menu.classList.toggle("active");
-  const isOpened = buttonThree.getAttribute("aria-expanded");
-  if (isOpened === "false") {
-    buttonThree.setAttribute("aria-expanded", "true");
-  } else {
-    buttonThree.setAttribute("aria-expanded", "false");
-  }
-});
-</script>
-</html>
