@@ -23,7 +23,6 @@ header{
     align-items: center;
 }
 #header {
-    position: relative;
     height: 5rem;
     z-index: 4;
     flex-grow: 0;
