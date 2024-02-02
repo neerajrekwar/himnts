@@ -25,6 +25,7 @@ header {
 }
 
 #header {
+	float: none;
 	height: 5rem;
 	z-index: 4;
 	flex-grow: 0;
