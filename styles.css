@@ -29,7 +29,10 @@ header{
     z-index: 4;
     flex-grow: 0;
 }
-
+nav{
+	display: flex;
+}
+.navbar{}
 main {
 	margin: 5px;
 }
@@ -39,8 +42,7 @@ main {
 	padding: 5px;
 	display: flex;
 	align-items: center;
-	height: auto;
-	aspect-ratio: 1/2;
+	height: 85px;
 	text-decoration: none;
 	color: #000;
 	font-size: 18px;
