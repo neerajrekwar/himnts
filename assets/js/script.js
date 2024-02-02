@@ -44,27 +44,3 @@ buttonThree.addEventListener('click', () => {
 //     // Call the function when the page is fully loaded
 //     document.addEventListener('DOMContentLoaded', applyFooterToAllPages);
 
-function loadFooter() {
-    // Fetch and insert footer
-    fetch('index.html')
-        .then(response => response.text())
-        .then(footerHtml => {
-            document.body.insertAdjacentHTML('beforeend', footerHtml);
-        });
-}
-
-// Call the function when the page is loaded
-document.addEventListener('DOMContentLoaded', loadFooter);
-
-// Function to load and insert header
-function loadHeader() {
-    // Fetch and insert header
-    fetch('index.html')
-        .then(response => response.text())
-        .then(headerHtml => {
-            document.body.insertAdjacentHTML('afterbegin', headerHtml);
-        });
-}
-
-// Call the function when the page is loaded
-document.addEventListener('DOMContentLoaded', loadHeader);
