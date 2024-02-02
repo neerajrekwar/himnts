@@ -1,8 +1,8 @@
-const buttons = document.querySelectorAll(".button-three");
+const myNavee = document.querySelectorAll(".button-three");
 
-buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const menu = button.nextElementSibling; // Assuming the menu is a sibling element
+myNavee.forEach((button) => {
+  myNavee.addEventListener("click", () => {
+    const menu = myNavee.nextElementSibling; // Assuming the menu is a sibling element
     menu.classList.toggle("active");
     
     const isOpened = button.getAttribute("aria-expanded");
