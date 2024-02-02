@@ -25,7 +25,7 @@ header{
 }
 .header {
     position: relative;
-    height: 8.1rem;
+    height: 5rem;
     z-index: 4;
     flex-grow: 0;
 }
