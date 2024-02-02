@@ -126,10 +126,9 @@ li {
 
 .navbar li a:hover {
 	color: rgb(0, 0, 0);
-	/* transition: margin-right 5px .2s;
+	background-color: #7bff00;
+	transition: margin-right 5px .2s;
 	/* transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%); */
-	transform: margin scale(1, 2, 5, 2) 20px .2s;
-	translate: bottom 1em;
 	
   }
 
