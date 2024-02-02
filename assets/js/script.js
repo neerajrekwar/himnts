@@ -44,7 +44,4 @@ buttonThree.addEventListener("click", () => {
 //     // Call the function when the page is fully loaded
 //     document.addEventListener('DOMContentLoaded', applyFooterToAllPages);
 
-$(function () {
-  $("#header").load("/assets/html/header.html");
-//   $("#footer").load("footer.html");
-});
+
