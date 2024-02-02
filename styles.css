@@ -112,11 +112,11 @@ li {
 .navlink li {
 	display: flex;
 	padding: 5px;
-	position: relative;
 }
 
 .navlink li a {
 	color: #000;
+	transition: 0.5s;
 	/* aspect-ratio: 3/2; */
 	padding: 5px;
 	text-decoration: none;
@@ -129,17 +129,7 @@ li {
 	/* transition: margin-right 5px .2s;
 	/* transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%); 
 	transform-origin: left 200px .2s; */
-	content: '';
-	position: absolute;
-	margin-bottom: -1px;
-	left: 0;
-	bottom: 0px;
-	width: 100%;
-	height: 1px;
-	background-color: greenyellow;
-	scale: 0 1;
-	transform-origin: left;
-	transition: scale 0.32s;
+	
   }
 
 
