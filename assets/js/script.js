@@ -9,7 +9,7 @@ buttonThree.addEventListener("click", () => {
   } else {
     buttonThree.setAttribute("aria-expanded", "false");
   }
-});
+})
 // // Your HTML content for the page
 
 //     // JavaScript code for dynamically creating and appending a footer

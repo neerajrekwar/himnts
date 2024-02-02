@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.header {
+#header {
     position: relative;
     height: 5rem;
     z-index: 4;
