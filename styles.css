@@ -19,7 +19,8 @@ html {
 }
 
 header{
-	height: 33px;
+	height: 40px;
+	width: 100%;
 }
 .header {
 	display: flex;
@@ -158,10 +159,6 @@ body {
 }
 
 
-header {
-	color: #1e1e24;
-	text-align: center;
-}
 
 img {
 	width: auto;
