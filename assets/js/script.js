@@ -9,4 +9,4 @@ buttonThree.addEventListener('click', () => {
     } else {
         buttonThree.setAttribute('aria-expanded', 'false');
     }
-})
+});
