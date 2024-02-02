@@ -9,4 +9,4 @@ myNavee.addEventListener("click", () => {
   } else {
     myNavee.setAttribute("aria-expanded", "false");
   }
-})
+});
