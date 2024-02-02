@@ -58,7 +58,7 @@ main {}
 	background-color: #7bff00;
 }
 
-.logo-txt {
+#logo-txt {
 	display: inline-block;
 	font-size: 80px;
 	line-height: 0.9;
