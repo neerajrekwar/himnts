@@ -52,10 +52,12 @@ main {}
 	text-align: left;
 	font-size: 15px;
 	margin: 0px 10px;
+
 }
 
 .bio_box {
-	background-color: #7bff00;
+	background: rgb(70,168,33);
+background: linear-gradient(128deg, rgba(70,168,33,1) 0%, rgba(187,238,54,1) 50%);
 }
 
 #logo-txt {
