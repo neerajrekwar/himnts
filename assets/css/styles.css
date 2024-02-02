@@ -268,7 +268,7 @@ footer {
 	}
 
 	.navbar .navlink {
-		display: block;
+		display: contents;
 	}
 
 	.navlink ul {
