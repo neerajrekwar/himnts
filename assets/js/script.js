@@ -1,4 +1,4 @@
-const buttonThree = document.querySelector('.button-three');
+const buttonThree = document.querySelector('.my-nav-btn');
 
 buttonThree.addEventListener('click', () => {
     const menu = document.querySelector('.navbar');
