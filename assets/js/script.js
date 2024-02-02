@@ -1,16 +1,19 @@
-const myNavee = document.querySelector(".button-three");
+const buttons = document.querySelectorAll(".button-three");
 
-myNavee.addEventListener("click", () => {
-  const menu = document.querySelector(".navbar");
-  menu.classList.toggle("active");
-  const isOpened = myNavee.getAttribute("aria-expanded");
-  if (isOpened === "false") {
-    myNavee.setAttribute("aria-expanded", "true");
-  } else {
-    myNavee.setAttribute("aria-expanded", "false");
-  }
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const menu = button.nextElementSibling; // Assuming the menu is a sibling element
+    menu.classList.toggle("active");
+    
+    const isOpened = button.getAttribute("aria-expanded");
+    
+    if (isOpened === "false") {
+      button.setAttribute("aria-expanded", "true");
+    } else {
+      button.setAttribute("aria-expanded", "false");
+    }
+  });
 });
-
 
 // // Your HTML content for the page
 
