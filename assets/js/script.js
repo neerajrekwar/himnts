@@ -11,10 +11,7 @@ myNavee.addEventListener("click", () => {
   }
 });
 
-$(function () {
-  $("#header").load("/assets/html/header.html");
-  $("#footer").load("/assets/html/footer.html");
-});
+
 // // Your HTML content for the page
 
 //     // JavaScript code for dynamically creating and appending a footer
