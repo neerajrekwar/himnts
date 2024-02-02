@@ -39,14 +39,14 @@
   <!-- Favicon -->
   <link rel="icon" href="assets/H.png" type="image/x-icon">
   <!-- JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script>
     $(function () {
       $("#header").load("/assets/html/header.html");
       $("#footer").load("/assets/html/footer.html");
     });
-  </script>
+  </script> -->
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EH4QTJEVFE"></script>
   <script>
@@ -59,7 +59,31 @@
 </head>
 
 <body class="page">
-  <header id="header"></header>
+  <header id="header">
+    <a href="/" class="logo">himnts</a>
+    <nav class="navbar">
+      <ul class="navlink">
+        <li><a aria-current="page" href="/" class="active">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="servies.html">Servies</a></li>
+        <li><a href="/balloon-decoration-in-delhi.html">booking</a></li>
+      </ul>
+    </nav>
+    <div class="main-menu">
+      <!--    <a href="#">Sigh In</a>
+                <a href="#">Register</a> -->
+      <div class="main-menu-mini">
+        <button class="button-three" aria-controls="primary-navigation" aria-expanded="false">
+          <svg stroke="var(--button-color)" fill="none" class="hamburger" viewBox="-10 -10 120 120" width="45">
+            <path class="line" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"
+              d="m 20 40 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 80">
+            </path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
   <main>
     <div class="headline">
 
