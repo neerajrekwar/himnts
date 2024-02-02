@@ -56,8 +56,8 @@ main {}
 }
 
 .bio_box {
-	background: rgb(70,168,33);
-background: linear-gradient(128deg, rgba(70,168,33,1) 0%, rgba(187,238,54,1) 50%);
+	background: rgb(70, 168, 33);
+	background: linear-gradient(128deg, rgba(70, 168, 33, 1) 0%, rgba(187, 238, 54, 1) 50%);
 }
 
 #logo-txt {
@@ -67,8 +67,8 @@ background: linear-gradient(128deg, rgba(70,168,33,1) 0%, rgba(187,238,54,1) 50%
 	line-height: 0.9;
 	padding: 20px;
 	text-transform: uppercase;
-	background: rgb(192,255,168);
-background: radial-gradient(circle, rgba(192,255,168,1) 0%, rgba(220,230,47,1) 50%, rgba(255,55,0,1) 100%) no-repeat;
+	background: rgb(192, 255, 168);
+	background: radial-gradient(circle, rgba(192, 255, 168, 1) 0%, rgba(220, 230, 47, 1) 50%, rgba(255, 55, 0, 1) 100%) no-repeat;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
