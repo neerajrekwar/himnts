@@ -46,5 +46,5 @@ buttonThree.addEventListener("click", () => {
 
 $(function () {
   $("#header").load("/assets/html/header.html");
-  $("#footer").load("footer.html");
+//   $("#footer").load("footer.html");
 });
