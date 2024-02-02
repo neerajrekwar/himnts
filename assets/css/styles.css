@@ -187,13 +187,6 @@ body {
 	text-align: center;
 }
 
-.birthday-banner {
-	background-color: #ffd700;
-	/* padding: 10px;*/
-	border-radius: 5px;
-	/*margin-bottom: 20px;*/
-}
-
 img {
 	width: auto;
 	height: 300px;
@@ -213,14 +206,14 @@ footer {
 #gallery {
 	height: 200px;
 	max-width: 100%;
-	border: 2px solid rgb(94, 113, 106);
+	/* border: 2px solid rgb(94, 113, 106); */
 	margin: 10px;
 	border-radius: 20px;
 
 }
 
 #gallery .carousel {
-	border: solid 2px red;
+	/* border: solid 2px red; */
 	display: flex;
 	overflow: hidden;
 	justify-content: center;
@@ -231,7 +224,7 @@ footer {
 .pks-section {
 	border: 2px solid;
 	border-radius: 5px;
-	background-color: #FEF9EF;
+	/* background-color: #FEF9EF; */
 }
 
 .cards {
@@ -244,6 +237,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	height: auto;
+
 }
 
 .card {
@@ -251,7 +245,8 @@ footer {
 	justify-content: center;
 	align-items: center;
 	text-align: left;
-	background-color: rgba(255, 255, 255, 0.507);
+	background: rgb(207, 144, 49);
+	background: linear-gradient(222deg, rgba(207, 144, 49, 0) 0%, rgba(238, 221, 54, 0.4206057422969187) 100%);
 	backdrop-filter: blur(1px);
 	margin: 10px 10px 0px 10px;
 	padding: 5px;
