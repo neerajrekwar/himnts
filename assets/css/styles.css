@@ -61,7 +61,9 @@ main {}
 }
 
 .bio_box {
-	font-size: larger;
+	font-size: 14px;
+	max-width: 60%;
+	margin: 0 auto;
 }
 
 #logo-txt {
@@ -364,6 +366,9 @@ footer {
 		font-size: 6px;
 		margin: 0px 10px;
 	    height: 51vh;
+	}
+	.bio_box{
+		width: 100%;
 	}
 	
 	
