@@ -17,6 +17,8 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
   <script type="module" src="/assets/js/script.js"></script>
+  <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+  <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
   <!-- <link rel="stylesheet" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/bootstrap/5.0/bootstrap.min.css" integrity="sha384-wSTiTaVrjtFhd4E5LD6/LshkAgJ1jD0B8Lr+If3RpAZL4/L8zi4weXIi01q1bh1f" crossorigin="anonymous"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -111,7 +113,29 @@
         </div>
       </div>
       <div id="gallery">
-  
+        <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+        <div class="embla">
+          <div class="embla__container">
+            <div class="embla__slide">Slide 1</div>
+            <div class="embla__slide">Slide 2</div>
+            <div class="embla__slide">Slide 3</div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          const emblaNode = document.querySelector('.embla')
+          const options = { loop: false }
+          const emblaApi = EmblaCarousel(emblaNode, options)
+
+          console.log(emblaApi.slideNodes()) // Access API
+        </script>
+
+        <script type="text/javascript">
+          const emblaNode = document.querySelector('.embla')
+          const options = { loop: false }
+          const plugins = [EmblaCarouselAutoplay()]
+          const emblaApi = EmblaCarousel(emblaNode, options, plugins)
+        </script>
+
       </div>
     </div>
     <!-- Your existing HTML structure goes here -->
