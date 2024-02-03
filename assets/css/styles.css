@@ -72,19 +72,19 @@ main {}
 }
 
 .still-text1 {
-	font-size: 2rem;
+	font-size: 2em;
 }
 
 .still-text2 {
-   font-size: 1.2rem;
+   font-size: 1.2em;
 }
 
 .auto-type {
-	font-size: 1.8rem;
+	font-size: 1.8em;
 }
 
 .typed-cursor {
-	font-size: 2rem;
+	font-size: 2em;
 }
 
 /* .navigation {
