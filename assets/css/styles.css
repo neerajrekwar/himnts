@@ -367,7 +367,7 @@ footer {
 	    height: 51vh;
 	}
 	.bio_box{
-		width: 100%;
+		max-width: 100%;
 	}
 	
 	
