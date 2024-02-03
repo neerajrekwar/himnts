@@ -73,18 +73,22 @@ main {}
 
 .still-text1 {
 	font-size: 2em;
+	font-weight: bold;
 }
 
 .still-text2 {
    font-size: 2em;
+   font-weight: bold;
 }
 
 .auto-type {
 	font-size: 2em;
+	font-weight: bold;
 }
 
 .typed-cursor {
-	font-size: 2em;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 /* .navigation {
