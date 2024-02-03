@@ -301,57 +301,70 @@ footer {
 	object-fit: cover;
 	background-size: 6px, auto, contain;
 }
-.cta {
-	border: none;
-	background: none;
-	cursor: pointer;
-  }
-  
-  .cta span {
-	padding-bottom: 7px;
-	letter-spacing: 4px;
-	font-size: 14px;
-	padding-right: 15px;
-	text-transform: uppercase;
-  }
-  
-  .cta svg {
-	transform: translateX(-8px);
-	transition: all 0.3s ease;
-  }
-  
-  .cta:hover svg {
-	transform: translateX(0);
-  }
-  
-  .cta:active svg {
-	transform: scale(0.9);
-  }
-  
-  .hover-underline-animation {
+.book-now {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 30px;
+	border: 0;
 	position: relative;
-	color: black;
-	padding-bottom: 20px;
+	overflow: hidden;
+	border-radius: 10rem;
+	transition: all 0.02s;
+	font-weight: bold;
+	color: rgb(37, 37, 37);
+	z-index: 0;
+	box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
   }
   
-  .hover-underline-animation:after {
-	content: "";
+  .book-now:hover {
+	background: rgb(193, 228, 248);
+	color: rgb(33, 0, 85);
+  }
+  
+  .book-now:active {
+	transform: scale(0.97);
+  }
+  
+  .hoverEffect {
 	position: absolute;
-	width: 100%;
-	transform: scaleX(0);
-	height: 2px;
 	bottom: 0;
+	top: 0;
 	left: 0;
-	background-color: #000000;
-	transform-origin: bottom right;
-	transition: transform 0.25s ease-out;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
   }
   
-  .cta:hover .hover-underline-animation:after {
-	transform: scaleX(1);
-	transform-origin: bottom left;
+  .hoverEffect div {
+	background: rgb(222,0,75);
+	background: linear-gradient(90deg, rgba(222,0,75,1) 0%, rgba(191,70,255,1) 49%, rgba(0,212,255,1) 100%);
+	border-radius: 40rem;
+	width: 10rem;
+	height: 10rem;
+	transition: 0.4s;
+	filter: blur(20px);
+	animation: effect infinite 3s linear;
+	opacity: 0.5;
   }
   
+  .book-now:hover .hoverEffect div {
+	width: 8rem;
+	height: 8rem;
+  }
+  
+  @keyframes effect {
+  
+	0% {
+	  transform: rotate(0deg);
+	}
+  
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
 
 
 @media all and (max-width: 767px) {
