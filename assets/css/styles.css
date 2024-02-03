@@ -62,12 +62,13 @@ main {}
 #logo-txt {
 	display: inline-block;
 	font-style: normal;
-	font-size: 80px;
+	font-size: 1.3em;
 	line-height: 0.9;
 	padding: 20px;
 	text-transform: uppercase;
-	background: rgb(192, 255, 168);
-	background: radial-gradient(circle, rgba(192, 255, 168, 1) 0%, rgba(220, 230, 47, 1) 50%, rgba(255, 55, 0, 1) 100%) no-repeat;
+
+	/* background: rgb(192, 255, 168);
+	background: radial-gradient(circle, rgba(192, 255, 168, 1) 0%, rgba(220, 230, 47, 1) 50%, rgba(255, 55, 0, 1) 100%) no-repeat; */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
