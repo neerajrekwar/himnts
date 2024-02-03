@@ -47,8 +47,12 @@ main {}
 	color: #000;
 	font-size: 18px;
 }
+.s-container{
+	margin: 0 auto;
 
+}
 .headline {
+    max-width: 60%;
 	text-align: left;
     font-size: 16px;
     margin: 0px 10px;
