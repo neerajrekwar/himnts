@@ -52,6 +52,7 @@ main {}
 
 }
 .headline {
+	width: 100%;
     max-width: 60%;
 	text-align: left;
     font-size: 16px;
@@ -231,7 +232,7 @@ footer {
 #gallery {
 	height: 200px;
 	max-width: 100%;
-	border: 2px solid rgb(94, 113, 106);
+	border: 2px solid rgb(84, 114, 103);
 	margin: 10px;
 	border-radius: 20px;
 
@@ -358,8 +359,9 @@ footer {
 		z-index: 5;
 	}
 	.headline {
+		width: 100%;
 		text-align: left;
-		font-size: 12px;
+		font-size: 6px;
 		margin: 0px 10px;
 	    height: 51vh;
 	}
