@@ -349,17 +349,17 @@ footer {
 	}
 	
 	.still-text2 {
-	   font-size: 2em;
+	   font-size: 1.5em;
 	   font-weight: bold;
 	}
 	
 	.auto-type {
-		font-size: 2em;
+		font-size: 1.5em;
 		font-weight: bold;
 	}
 	
 	.typed-cursor {
-		font-size: 2em;
+		font-size: 1.5em;
 		font-weight: bold;
 	}
 }
