@@ -50,9 +50,9 @@ main {}
 
 .headline {
 	text-align: left;
-	font-size: 18px;
-	margin: 0px 10px;
-
+    font-size: 12px;
+    margin: 0px 10px;
+    height: 51vh;
 }
 
 .bio_box {
@@ -347,7 +347,7 @@ footer {
 		text-align: left;
 		font-size: 12px;
 		margin: 0px 10px;
-	
+	    height: 51vh;
 	}
 	
 	
