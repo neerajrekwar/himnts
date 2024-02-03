@@ -343,5 +343,12 @@ footer {
 		width: 40%;
 		z-index: 5;
 	}
+	.headline {
+		text-align: left;
+		font-size: 18px;
+		margin: 0px 10px;
+	
+	}
+	
 	
 }
