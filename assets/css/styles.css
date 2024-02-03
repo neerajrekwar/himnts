@@ -72,13 +72,21 @@ main {}
 	-webkit-text-fill-color: transparent;
 }
 
-.still-text1 {}
+.still-text1 {
+	font-size: 1rem;
+}
 
-.still-text2 {}
+.still-text2 {
+   font-size: 1.2rem;
+}
 
-.auto-type {}
+.auto-type {
+	font-size: 1.5rem;
+}
 
-.typed-cursor {}
+.typed-cursor {
+	font-size: 2rem;
+}
 
 /* .navigation {
 	padding: 3em;
