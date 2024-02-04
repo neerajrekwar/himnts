@@ -233,6 +233,7 @@ img {
 }
 
 section {
+	max-width: 5px;
 	text-align: left;
 }
 
