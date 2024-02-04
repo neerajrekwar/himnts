@@ -266,19 +266,14 @@ footer {
 
 }
 
-#gallery .carousel {
-	/* border: solid 2px red; */
-	display: flex;
-	overflow: hidden;
-	justify-content: center;
-	align-items: center;
-	max-width: 100%;
+.carousel {
+	width: 80%;
+	margin: auto;
 }
 
-.pks-section {
-	border: 2px solid;
-	border-radius: 5px;
-	/* background-color: #FEF9EF; */
+.carousel img {
+	width: 100%;
+	height: auto;
 }
 
 .cards {
