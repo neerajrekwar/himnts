@@ -183,7 +183,7 @@ li {
 .navbar li a:hover {
 	color: rgb(0, 0, 0);
 	background-color: #7bff00;
-	transition: margin-right 5px .2s;
+	transition: margin-right 15px .2s;
 	/* transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%); */
 
 }
@@ -279,15 +279,15 @@ footer {
 }
 
 .birthday {
-	border: #7bff00 2px solid;
+	/* border: #7bff00 2px solid; */
 }
 
 .valentine {
-	border: #b62626 2px solid;
+	/* border: #b62626 2px solid; */
 }
 
 .occasion {
-	border: #ffd700 2px solid;
+	/* border: #ffd700 2px solid; */
 }
 
 .card-img {
