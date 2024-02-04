@@ -18,9 +18,9 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
   <script type="module" src="/assets/js/script.js"></script>
 
-  <!-- Include jQuery and Slick Carousel JS CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  
 
   <!-- <link rel="stylesheet" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/bootstrap/5.0/bootstrap.min.css" integrity="sha384-wSTiTaVrjtFhd4E5LD6/LshkAgJ1jD0B8Lr+If3RpAZL4/L8zi4weXIi01q1bh1f" crossorigin="anonymous"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -116,12 +116,46 @@
         </div>
       </div>
       <div class="gallery">
-        <div class="carousel">
-          <div><img src="/src/crsl-images/IMG20230426200128.jpg" alt="Image 1"></div>
-          <div><img src="/src/crsl-images/IMG20230815213933.jpg" alt="Image 2"></div>
-          <div><img src="/src/crsl-images/IMG20230823183653.jpg" alt="Image 3"></div>
-          <!-- Add more slides as needed -->
-      </div>
+        <div class="carousel-container">
+          <div class="carousel">
+            <div><img src="https://placekitten.com/800/400" alt="Slide 1"></div>
+            <div><img src="https://placekitten.com/800/401" alt="Slide 2"></div>
+            <div><img src="https://placekitten.com/800/402" alt="Slide 3"></div>
+          </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
+        <script>
+          $(document).ready(function(){
+            $('.carousel').slick({
+              dots: true,
+              infinite: true,
+              speed: 500,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              responsive: [
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+              ]
+            });
+          });
+        </script>
       </div>
     </div>
     <!-- Your existing HTML structure goes here -->
