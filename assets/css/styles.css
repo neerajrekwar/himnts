@@ -3,7 +3,6 @@
 	font-family: 'alata', sans-serif;
 	scroll-behavior: smooth;
 	font-size: 16px;
-	/* text-align: center; */
 	scroll-behavior: smooth;
 	font-weight: 400;
 }
@@ -226,7 +225,6 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f8f8f8;
-	text-align: center;
 }
 
 img {
