@@ -266,7 +266,10 @@ footer {
 
 }
 
-
+.carousel-container {
+	max-width: 800px;
+	margin: auto;
+  }
 
 .cards {
 	margin: 0 auto;
