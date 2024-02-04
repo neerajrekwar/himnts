@@ -112,30 +112,8 @@
           </script>
         </div>
       </div>
-      <div id="gallery">
-        <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
-        <div class="embla">
-          <div class="embla__container">
-            <div class="embla__slide">Slide 1</div>
-            <div class="embla__slide">Slide 2</div>
-            <div class="embla__slide">Slide 3</div>
-          </div>
-        </div>
-        <script type="text/javascript">
-          const emblaNode = document.querySelector('.embla')
-          const options = { loop: false }
-          const emblaApi = EmblaCarousel(emblaNode, options)
-
-          console.log(emblaApi.slideNodes()) // Access API
-        </script>
-
-        <script type="text/javascript">
-          const emblaNode = document.querySelector('.embla')
-          const options = { loop: false }
-          const plugins = [EmblaCarouselAutoplay()]
-          const emblaApi = EmblaCarousel(emblaNode, options, plugins)
-        </script>
-
+      <div class="gallery">
+        
       </div>
     </div>
     <!-- Your existing HTML structure goes here -->
