@@ -247,7 +247,9 @@ img {
 	height: 300px;
 }
 
-section {}
+section {
+	text-align: center;
+}
 
 .info {
 	border: 2px slateblue solid;
