@@ -63,6 +63,14 @@ header {
 	flex-grow: 0;
 }
 
+.h-bar{
+	content: ' ';
+	background: #7bff00;
+	position: absolute;
+	height: 20px;
+	width: 100%;
+}
+
 nav {
 	display: flex;
 }
@@ -264,6 +272,7 @@ section {
     justify-content: flex-end;
     align-items: center;
 }
+
 
 footer {
 	height: 200px;
