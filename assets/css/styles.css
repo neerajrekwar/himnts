@@ -114,8 +114,10 @@ main {}
 }
 
 .still-text1 {
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 1.3em;
+    font-weight: bold;
+    max-width: 36%;
+    margin: 0 auto;
 
 }
 
