@@ -95,10 +95,10 @@ main {}
 
 .bio_box {
 	font-size: 14px;
-	max-width: 60%;
-	margin: 0 auto;
-	padding: 30px 5%;
-	text-align: -webkit-center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 30px 5%;
+    text-align: -webkit-center;
 }
 
 #logo-txt {
