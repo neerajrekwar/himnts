@@ -256,6 +256,7 @@ section {
 .info {
 	border: 2px slateblue solid;
 	text-align: left;
+	height: 15vh;
 }
 
 footer {
