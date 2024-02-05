@@ -255,9 +255,14 @@ section {
 
 .info {
 	border: 2px slateblue solid;
-	text-align: left;
-	height: 80vh;
-	font-size: 1.5em;
+    text-align: left;
+    height: 80vh;
+    display: flex;
+    font-size: 1.5em;
+    align-content: stretch;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 footer {
