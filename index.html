@@ -18,7 +18,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
   <script type="module" src="/assets/js/script.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    
+
   <!-- <link rel="stylesheet" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/bootstrap/5.0/bootstrap.min.css" integrity="sha384-wSTiTaVrjtFhd4E5LD6/LshkAgJ1jD0B8Lr+If3RpAZL4/L8zi4weXIi01q1bh1f" crossorigin="anonymous"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -90,7 +90,29 @@
   <main>
     <div class="s-container">
       <div class="headline">
-        <div class="bio_box">
+        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                  Welcome to Himmts Balloon Decoration
+                </h1>
+                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                  We provide top-notch balloon decoration services in Delhi. Let's make your event unforgettable.
+                </p>
+              </div>
+              <div className="space-x-4">
+                <Link
+                  className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                  href="#"
+                >
+                  Contact Us
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <div class="bio_box">
           <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
           <span class="still-text1">let's connect to <i id="logo-txt">HIMNTS</i><br></span>
           <span class="still-text2">your Birthday celebration make vibrant by us <br>
@@ -110,7 +132,7 @@
               loop: true,
             });
           </script>
-        </div>
+        </div> -->
       </div>
       <div class="gallery">
 
@@ -119,7 +141,8 @@
     <!-- Your existing HTML structure goes here -->
     <section>
       <h1>himnts available in dwarka with professionals balloon decoration.</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus modi rem officiis recusandae a deserunt necessitatibus totam ab optio.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus modi rem officiis recusandae a deserunt
+        necessitatibus totam ab optio.</p>
       <div class="info">
         <h2>himnts Balloon Decoration for birthday at home.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti et aut non assumenda, culpa, voluptatem
