@@ -63,13 +63,13 @@ header {
 	flex-grow: 0;
 }
 
-.h-bar{
+/* .h-bar{
 	content: ' ';
 	background: #7bff00;
 	position: absolute;
 	height: 20px;
 	width: 100%;
-}
+} */
 
 nav {
 	display: flex;
