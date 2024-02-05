@@ -117,7 +117,7 @@ main {}
 .still-text1 {
 	font-size: 3em;
 	font-weight: bold;
-
+	color: rgb(82 207 89);
 }
 
 .still-text2 {
@@ -209,7 +209,7 @@ li {
 	/* aspect-ratio: 3/2; */
 	padding: 5px;
 	text-decoration: none;
-	border-radius: 3.33px;
+	/* border-radius: 3.33px; */
 	font-size: 18px;
 
 }
