@@ -258,8 +258,8 @@ footer {
 }
 
 .gallery {
-	height: auto;
-	max-width: auto;
+	height: 200px;
+	max-width: 100%;
 	border: 2px solid rgb(84, 114, 103);
 	margin: 10px;
 	border-radius: 20px;
