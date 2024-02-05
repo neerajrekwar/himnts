@@ -121,10 +121,11 @@ main {}
 }
 
 .still-text2 {
-	font-size: 1.3em;
-    font-weight: bold;
+	font-size: 1.25em;
+    /* font-weight: bold; */
     max-width: 36%;
     margin: 0 auto;
+    color: #948d88;
 }
 
 .auto-type {
