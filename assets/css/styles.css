@@ -99,6 +99,15 @@ main {}
 	text-align: left;
 	font-size: 18px;
 	height: 90vh;
+	background: hsla(52, 100%, 88%, 1);
+
+background: linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFF7C0", endColorstr="#CDEAFC", GradientType=1 );
 
 }
 
