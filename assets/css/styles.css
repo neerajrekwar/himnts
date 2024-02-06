@@ -62,6 +62,10 @@ header {
 	z-index: 4;
 	flex-grow: 0;
 }
+.desktop-nav{
+	border: 2px solid;
+    display: contents;
+}
 
 /* .h-bar{
 	content: ' ';
