@@ -287,6 +287,10 @@ section {
 	text-align: center;
 }
 
+.information{
+	margin: 0;
+	padding:20% 3px;
+}
 .info {
 	border: 2px slateblue solid;
 	text-align: left;
@@ -310,7 +314,6 @@ footer {
 .gallery {
 	height: 100vh;
 	max-width: 100%;
-
 	/* border: 2px solid rgb(84, 114, 103); */
 	/* margin: 10px; */
 	/* border-radius: 20px; */
