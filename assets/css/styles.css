@@ -498,33 +498,33 @@ footer {
 	}
 
 	h1 {
-		font-size: 2.2em;
+		font-size:.8em;
 		padding: 10px;
 		margin: 0;
 	}
 
 	h2 {
-		font-size: 1.8em;
+		font-size: .7em;
 		padding: 10px;
 	}
 
 	h3 {
-		font-size: 1.3em;
+		font-size: .6em;
 		padding: 10px 5px;
 	}
 
 	h4 {
-		font-size: 1em;
+		font-size: .5em;
 		padding: 10px 5px;
 	}
 
 	h5 {
-		font-size: .8em;
+		font-size: .4em;
 		padding: 10px 5px;
 	}
 
 	h6 {
-		font-size: .8em;
+		font-size: .3em;
 		padding: 10px 5px;
 	}
 
