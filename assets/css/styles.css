@@ -1,4 +1,5 @@
-*,html {
+*,
+html {
 	box-sizing: border-box;
 	font-family: 'alata', sans-serif;
 	scroll-behavior: smooth;
@@ -46,7 +47,8 @@ h6 {
 	font-size: .8em;
 	padding: 10px 5px;
 }
-p{
+
+p {
 	padding: 10px 10px;
 }
 
@@ -63,9 +65,10 @@ header {
 	flex-grow: 0;
 	font-size: 16px;
 }
-.desktop-nav{
+
+.desktop-nav {
 	border: 2px solid;
-    display: contents;
+	display: contents;
 }
 
 /* .h-bar{
@@ -91,7 +94,6 @@ main {}
 	height: 85px;
 	text-decoration: none;
 	color: #000;
-	font-size: 18px;
 }
 
 .s-container {
@@ -106,22 +108,22 @@ main {}
 	height: 90vh;
 	background: hsla(52, 100%, 88%, 1);
 
-background: linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+	background: linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
 
-background: -moz-linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+	background: -moz-linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
 
-background: -webkit-linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+	background: -webkit-linear-gradient(90deg, hsla(52, 100%, 88%, 1) 0%, hsla(203, 89%, 90%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFF7C0", endColorstr="#CDEAFC", GradientType=1 );
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FFF7C0", endColorstr="#CDEAFC", GradientType=1);
 
 }
 
 .bio_box {
 	font-size: 14px;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 30px 5%;
-    text-align: -webkit-center;
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 30px 5%;
+	text-align: -webkit-center;
 }
 
 #logo-txt {
@@ -144,10 +146,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFF7C0", en
 
 .still-text2 {
 	font-size: 1.25em;
-    /* font-weight: bold; */
-    max-width: 36%;
-    margin: 0 auto;
-    color: #948d88;
+	/* font-weight: bold; */
+	max-width: 36%;
+	margin: 0 auto;
+	color: #948d88;
 }
 
 .auto-type {
@@ -232,7 +234,7 @@ li {
 	padding: 5px;
 	text-decoration: none;
 	/* border-radius: 3.33px; */
-	font-size: 18px;
+	font-size: 16px;
 
 }
 
@@ -277,14 +279,14 @@ section {
 
 .info {
 	border: 2px slateblue solid;
-    text-align: left;
-    height: 80vh;
-    display: flex;
-    font-size: 1.5em;
-    align-content: stretch;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
+	text-align: left;
+	height: 80vh;
+	display: flex;
+	font-size: 1.5em;
+	align-content: stretch;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 
@@ -307,7 +309,7 @@ footer {
 .carousel-container {
 	max-width: 800px;
 	margin: 0 auto;
-  }
+}
 
 .cards {
 	margin: 0 auto;
