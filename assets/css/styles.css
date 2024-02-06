@@ -68,7 +68,7 @@ header {
 
 .desktop-nav {
 	border: 2px solid;
-	display: contents;
+	display: flex;
 }
 
 /* .h-bar{
