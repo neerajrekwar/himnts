@@ -11,3 +11,4 @@ myNavee.addEventListener("click", () => {
   }
 });
 
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFF7C0", endColorstr="#CDEAFC", GradientType=1 );
