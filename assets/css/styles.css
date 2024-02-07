@@ -42,7 +42,17 @@ body {
 	font-size: 16px;
 	color: var(--raisin-black);
 }
-
+.contact{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact a{
+	text-decoration: none;
+	background-color: var(--tomato);
+	margin: 10px;
+	padding: 5px;
+}
 
 .sub-h1x {
 	font-size: 4.2em;
