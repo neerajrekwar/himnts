@@ -340,13 +340,14 @@ footer {
 
 .information {
 	margin: 5% 4px;
-	background: beige;
+	
 	/* border: 2px solid #353535; */
 	/* aspect-ratio: 9/6; */
 	/* height: 200px; */
 }
 
 .info {
+	background: beige;
 	/* border: 2px solid green; */
 	display: flex;
 	font-size: 10px;
@@ -573,7 +574,7 @@ footer {
 		/* aspect-ratio: 6/9; */
 		/* height: 200px; */
 		margin: 5% 4px;
-		background: beige;
+
 	}
 
 	.info {
@@ -584,6 +585,7 @@ footer {
 		font-size: 10px;
 		height: auto;
 		/* background-color: rgb(201, 201, 201); */
+		background: beige;
 	}
 
 	.img-box {
