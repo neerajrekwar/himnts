@@ -331,10 +331,11 @@ footer {
 	/* border: 2px solid rgb(84, 114, 103); */
 	/* margin: 10px; */
 	/* border-radius: 20px; */
-
-
 }
 
+.info-container{
+	margin: 15% 0;
+}
 .information {
 	/* border: 2px solid #353535; */
 	/* aspect-ratio: 9/6; */
