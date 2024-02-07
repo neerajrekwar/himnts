@@ -31,6 +31,10 @@ body {
 	width: 100%;
 }
 
+.para-txt{
+	font-size: .9em;
+
+}
 
 
 .sub-h1x {
@@ -44,6 +48,8 @@ body {
 	font-size: 2em;
 	padding: 10px;
 	text-align: left;
+	text-align: -webkit-left;
+    font-size: 2.5em;
 }
 
 .sub-h3x {
@@ -375,16 +381,6 @@ footer {
 	height: auto;
 	width: 100%;
 
-}
-.para-txt{
-
-}
-.sub-h1x{
-	font-size: 2.5em;
-}
-.sub-h2x{
-	text-align: -webkit-left;
-    font-size: 2.5em;
 }
 
 .carousel-container {
