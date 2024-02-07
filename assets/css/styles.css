@@ -564,8 +564,6 @@ footer {
 		border: .001px solid #bbbbbb;
 		/* aspect-ratio: 6/9; */
 		/* height: 200px; */
-		display: flex;
-		flex-direction: row-reverse;
 	  }
 	  
 	  .info{
