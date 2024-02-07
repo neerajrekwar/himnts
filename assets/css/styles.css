@@ -286,7 +286,22 @@ li {
 
 }
 
-gal
+.gallery-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.gal-img {
+    height: 187px;
+    width: 38%;
+    /* border: 2px solid; */
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 /*    
         height: 400px;
