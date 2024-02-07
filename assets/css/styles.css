@@ -27,6 +27,7 @@ html {
 	--pigment-green: hsla(139, 46%, 44%, 1);
 }
 
+
 body {
 	width: 100%;
     background: url(/src/bg-tem/layered-waves-haikei.svg);
@@ -36,6 +37,9 @@ body {
     background-size: cover;
     /* border: 5px solid rgb(216, 38, 163); */
     margin: 10px;
+}
+main{
+	background: #ffffff59;
 }
 
 .para-txt {
