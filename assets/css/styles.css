@@ -155,7 +155,10 @@ main {}
 	text-decoration: none;
 	color: #000;
 }
-
+.logo a{
+	height: 20px;
+	width: 100%;
+}
 .s-container {
 	margin: 0 auto;
 
