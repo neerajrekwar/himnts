@@ -567,7 +567,7 @@ footer {
 
 
 	.information {
-		border: .001px solid #bbbbbb;
+		/* border: .001px solid #bbbbbb; */
 		margin: 0;
 		padding: 10% 3px;
 		/* aspect-ratio: 6/9; */
