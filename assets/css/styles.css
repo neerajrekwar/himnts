@@ -12,7 +12,19 @@ html {
 }
 
 :root {
-	--text-h1:
+	/* CSS HEX */
+	--raisin-black: #1E1E29ff;
+	--tomato: #F06543ff;
+	--sunglow: #FFD166ff;
+	--poppy: #DF2935ff;
+	--pigment-green: #3DA35Dff;
+
+	/* CSS HSL */
+	--raisin-black: hsla(240, 15%, 14%, 1);
+	--tomato: hsla(12, 85%, 60%, 1);
+	--sunglow: hsla(42, 100%, 70%, 1);
+	--poppy: hsla(356, 74%, 52%, 1);
+	--pigment-green: hsla(139, 46%, 44%, 1);
 }
 
 body {
@@ -122,10 +134,10 @@ main {}
 
 .bio_box {
 	font-size: 14px;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 100px 1%;
-    text-align: -webkit-center;
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 100px 1%;
+	text-align: -webkit-center;
 }
 
 #logo-txt {
@@ -336,12 +348,13 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
-  }
-.explore-btn{
+}
+
+.explore-btn {
 	/* text-decoration: none; */
 	color: #000000;
 	font-size: 22px;
-  }
+}
 
 .img-box {
 	height: 300px;
@@ -362,6 +375,11 @@ footer {
 
 }
 
+
+.sub-h2x{
+	text-align: -webkit-left;
+    font-size: 2.5em;
+}
 .carousel-container {
 	max-width: 800px;
 	margin: 0 auto;
