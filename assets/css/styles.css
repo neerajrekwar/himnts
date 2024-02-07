@@ -122,10 +122,10 @@ main {}
 
 .bio_box {
 	font-size: 14px;
-	max-width: 80%;
-	margin: 0 auto;
-	padding: 30px 5%;
-	text-align: -webkit-center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 100px 1%;
+    text-align: -webkit-center;
 }
 
 #logo-txt {
@@ -535,7 +535,7 @@ footer {
 	.bio_box {
 		max-width: 100%;
 		font-size: 12px;
-		padding: 40px 2px;
+		padding: 100px 2px;
 	}
 
 	h1 {
