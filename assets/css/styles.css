@@ -349,7 +349,7 @@ footer {
 }
 
 .photo-gallery {
-	height: 100vh;
+	height: auto;
 	max-width: 100%;
 	/* border: 2px solid rgb(84, 114, 103); */
 	/* margin: 10px; */
