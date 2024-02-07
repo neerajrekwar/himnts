@@ -31,10 +31,11 @@ body {
 	width: 100%;
 }
 
-.para-txt{
+.para-txt {
 	font-size: .9em;
-
 }
+
+.para-txt1 {}
 
 
 .sub-h1x {
@@ -49,7 +50,7 @@ body {
 	padding: 10px;
 	text-align: left;
 	text-align: -webkit-left;
-    font-size: 2.5em;
+	font-size: 2.5em;
 }
 
 .sub-h3x {
@@ -57,7 +58,7 @@ body {
 	padding: 10px 5px;
 }
 
-.sub-h4x{
+.sub-h4x {
 	font-size: 1.2em;
 	padding: 10px 5px;
 }
@@ -333,10 +334,13 @@ footer {
 	/* border-radius: 20px; */
 }
 
-.info-container{
+.info-container {
 	margin: 15% 0 0;
 }
+
 .information {
+	margin: 5% 4px;
+	background: beige;
 	/* border: 2px solid #353535; */
 	/* aspect-ratio: 9/6; */
 	/* height: 200px; */
@@ -560,7 +564,7 @@ footer {
 		padding: 100px 2px;
 	}
 
-	
+
 
 	.information {
 		border: .001px solid #bbbbbb;
@@ -568,6 +572,8 @@ footer {
 		padding: 10% 3px;
 		/* aspect-ratio: 6/9; */
 		/* height: 200px; */
+		margin: 5% 4px;
+		background: beige;
 	}
 
 	.info {
