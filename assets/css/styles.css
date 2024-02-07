@@ -570,8 +570,8 @@ footer {
 	  
 	  .info{
 		/* border: 2px solid green; */
-		/* display: flex;
-		flex-direction: column-reverse; */
+		display: flex;
+		flex-direction: column-reverse;
 		align-items: center;
 		font-size: 10px;
 		height: auto;
