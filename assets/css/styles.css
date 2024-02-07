@@ -326,12 +326,29 @@ footer {
 	background: #7bff00;
 }
 
-.gallery {
+.photo-gallery {
 	height: 100vh;
 	max-width: 100%;
 	/* border: 2px solid rgb(84, 114, 103); */
 	/* margin: 10px; */
 	/* border-radius: 20px; */
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 10px;
+	padding: 10px;
+}
+.gallery img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+.gallery img:hover {
+	transform: scale(1.1);
 }
 
 .info-container {
