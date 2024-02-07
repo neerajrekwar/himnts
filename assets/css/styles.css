@@ -51,11 +51,17 @@ body {
 }
 
 .contact a {
+
 	text-decoration: none;
-	background-color: yellow;
-	margin: 10px;
-	padding: 5px;
-	color: #000;
+	background-color: rgb(220 230 47);
+	/* margin: 10px; */
+	padding: 12px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
+	color: #353535;
 }
 
 .sub-h1x {
