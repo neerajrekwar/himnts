@@ -37,11 +37,13 @@ body {
 	font-size: 4.2em;
 	padding: 10px;
 	margin: 0;
+	text-align: center;
 }
 
 .sub-h2x {
 	font-size: 2em;
 	padding: 10px;
+	text-align: left;
 }
 
 .sub-h3x {
