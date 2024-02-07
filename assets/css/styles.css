@@ -37,7 +37,6 @@ body {
     /* border: 5px solid rgb(216, 38, 163); */
     margin: 10px;
 }
-}
 
 .para-txt {
 	font-size: .7em;
@@ -163,8 +162,8 @@ main {}
 	text-align: left;
 	font-size: 18px;
 	height: 90vh;
-	background: hsla(52, 100%, 88%, 1);
-	background: -webkit-linear-gradient(90deg, hsl(52deg 79% 52% / 0%) 0%, rgb(220 230 47 / 50%) 50%, hsla(0, 0%, 96%, 1) 100%);
+	/* background: hsla(52, 100%, 88%, 1);g */
+	/* background: -webkit-linear-gradient(90deg, hsl(52deg 79% 52% / 0%) 0%, rgb(220 230 47 / 50%) 50%, hsla(0, 0%, 96%, 1) 100%); */
 
 }
 
