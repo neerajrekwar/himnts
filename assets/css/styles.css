@@ -321,15 +321,16 @@ li {
     /* border: 2px solid; */
     overflow: hidden;
     /* aspect-ratio: 3/2; */
-    /* margin: 10px; */
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-	margin: 0 auto;
-	background-repeat: no-repeat;
-	background-position: center;
-	object-fit: cover;
-	background-size: 6px, auto, contain;
+    /* margin: 0 auto; */
+    box-shadow: 2px 9px 12px #353535;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: 6px, auto, contain;
 }
 
 .gal-img img{
