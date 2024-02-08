@@ -30,15 +30,16 @@ html {
 
 body {
 	width: 100%;
-    background: url(/src/bg-tem/layered-waves-haikei.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: fill;
-    background-size: cover;
-    /* border: 5px solid rgb(216, 38, 163); */
-    margin: 10px;
+	background: url(/src/bg-tem/layered-waves-haikei.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: fill;
+	background-size: cover;
+	/* border: 5px solid rgb(216, 38, 163); */
+	margin: 10px;
 }
-main{
+
+main {
 	background: #ffffff59;
 }
 
@@ -155,10 +156,12 @@ main {}
 	text-decoration: none;
 	color: #000;
 }
-.logo img{
+
+.logo img {
 	height: 20px;
 	width: 100%;
 }
+
 .s-container {
 	margin: 0 auto;
 
@@ -311,32 +314,34 @@ li {
 
 .gallery-sec {
 	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.gal-img {
-	height: 100%;
-    width: 233px;
-    /* border: 2px solid; */
-    overflow: hidden;
-    /* aspect-ratio: 3/2; */
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* margin: 0 auto; */
-    box-shadow: 2px 9px 12px #353535;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    background-size: 6px, auto, contain;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.gal-img img{
-	height: auto;
-    width: 100%;
+.gal-img {
+	height: 100%;
+	width: 233px;
+	/* border: 2px solid; */
+	overflow: hidden;
+	/* aspect-ratio: 3/2; */
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/* margin: 0 auto; */
+	box-shadow: 2px 9px 12px #353535;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+	background-size: 6px, auto, contain;
 }
+
+.gal-img img {
+	height: auto;
+	width: 100%;
+}
+
 /*    
         height: 400px;
 	margin: 0 auto;
@@ -377,10 +382,12 @@ section {
 
 
 footer {
-	height: 200px;
+	/* height: 200px; */
 	bottom: 0;
 	width: 100%;
 	background: #7bff00;
+	margin: 0;
+	padding: 0;
 }
 
 .photo-gallery {
@@ -480,8 +487,8 @@ footer {
 	align-items: center;
 	height: auto;
 	background: darkorange;
-    /* margin: 14% 0; */
-    padding: 10% 0;
+	/* margin: 14% 0; */
+	padding: 10% 0;
 }
 
 .card {
