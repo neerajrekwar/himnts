@@ -542,9 +542,11 @@ footer {
     justify-content: space-around;
 }
 .pack-card {
-    border: 2px solid;
-    height: 300px;
+	border: 2px solid;
+    height: 340px;
     aspect-ratio: 4/5;
+    padding: 10px;
+}
 }
 @media all and (max-width: 767px) {
 
