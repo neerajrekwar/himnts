@@ -44,8 +44,8 @@ main{
 
 .para-txt {
 	font-size: .7em;
-	background: hsl(356deg 100% 90%);
-	border-radius: 10px;
+	/* background: hsl(356deg 100% 90%);
+	border-radius: 10px; */
 	margin: 6px 3em 5%;
 	padding: 1em 0.3em;
 }
