@@ -480,8 +480,8 @@ footer {
 .cards {
 	margin: 0 auto;
 	display: grid;
-	/* grid-template-columns: repeat(auto-fit, minmax(328px, 1fr)); */
-	grid-template-rows: repeat(auto-fit, minmax(336, 2fr));
+	grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
+	/* grid-template-rows: repeat(auto-fit, minmax(336, 2fr)); */
 	gap: 5px;
 	justify-content: center;
 	align-items: center;
