@@ -533,7 +533,14 @@ footer {
 	z-index: 0;
 	box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
 }
-
+.pack-img {
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
 
 @media all and (max-width: 767px) {
 
