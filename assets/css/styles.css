@@ -377,7 +377,7 @@ section {
 
 
 footer {
-	height: 200px;
+	/* height: 200px; */
 	bottom: 0;
 	width: 100%;
 	background: #7bff00;
