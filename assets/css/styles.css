@@ -479,6 +479,9 @@ footer {
 	justify-content: center;
 	align-items: center;
 	height: auto;
+	background: darkorange;
+    /* margin: 14% 0; */
+    padding: 10% 0;
 }
 
 .card {
