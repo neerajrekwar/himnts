@@ -534,21 +534,7 @@ footer {
 	box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
 }
 
-.pack-img {
-    height: 150px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-	border: 2px solid greenyellow;
-}
-.pack-card {
-    border: 2px solid;
-    display: initial;
-    text-align: left;
-    padding: 13px;
-}
+
 @media all and (max-width: 767px) {
 
 	body {
