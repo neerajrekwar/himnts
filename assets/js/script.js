@@ -18,8 +18,8 @@ const SCOPES = 'https://www.googleapis.com/auth/gmail.send';
 
 function initClient() {
     gapi.client.init({
-        apiKey: API_KEY,
-        clientId: CLIENT_ID,
+        apiKey: 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,
+        clientId: 945269722687-lcb5mqbn1hdf8dhhdnj6a1aufrcfc5io.apps.googleusercontent.com,
         discoveryDocs: DISCOVERY_DOCS,
         scope: SCOPES,
     }).then(function () {
