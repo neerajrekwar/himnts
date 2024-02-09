@@ -553,6 +553,7 @@ footer {
     height: 340px;
     aspect-ratio: 4/5;
     padding: 10px;
+	margin: 10px;
 }
 
 .footer-box {
