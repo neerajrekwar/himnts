@@ -625,7 +625,11 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-
+.pack-sec p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 @media all and (max-width: 767px) {
 
 	body {
