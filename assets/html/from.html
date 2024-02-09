@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/assets/js/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <title>Contact Us Form</title>
 </head>
+
 <body>
 
     <div class="container">
-        <form id="contactForm">
+        <form id="emailForm">
             <label for="senderEmail">Your Email:</label>
             <input type="email" id="senderEmail" name="senderEmail" required>
+
+            <label for="recipientEmail">Recipient Email:</label>
+            <input type="email" id="recipientEmail" name="recipientEmail" required>
 
             <label for="subject">Subject:</label>
             <input type="text" id="subject" name="subject" required>
@@ -22,9 +28,8 @@
             <button type="button" onclick="sendEmail()">Send Email</button>
         </form>
         <div id="statusMessage"></div>
-    </div>
-
-    <script src="https://apis.google.com/js/api.js"></script>
-    <script src="/assets/js/script.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="/assets/js/script.js"></script>
 </body>
+
 </html>

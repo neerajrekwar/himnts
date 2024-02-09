@@ -11,58 +11,31 @@ myNavee.addEventListener("click", () => {
   }
 });
 
-const CLIENT_ID = '945269722687-lcb5mqbn1hdf8dhhdnj6a1aufrcfc5io.apps.googleusercontent.com';
-const API_KEY = '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';
-const DISCOVERY_DOCS = ['https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest'];
-const SCOPES = 'https://www.googleapis.com/auth/gmail.send';
-
-function initClient() {
-    gapi.client.init({
-        apiKey: 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,
-        clientId: 945269722687-lcb5mqbn1hdf8dhhdnj6a1aufrcfc5io.apps.googleusercontent.com,
-        discoveryDocs: DISCOVERY_DOCS,
-        scope: SCOPES,
-    }).then(function () {
-        // Handle the initialization
-    }).catch(function (error) {
-        console.log('Error initializing GAPI: ', error);
-    });
-}
+// Initialize Email.js with your user ID
+emailjs.init("service_mv0bgzv");
 
 function sendEmail() {
     const senderEmail = document.getElementById('senderEmail').value;
+    const recipientEmail = document.getElementById('recipientEmail').value;
     const subject = document.getElementById('subject').value;
     const message = document.getElementById('message').value;
 
-    gapi.client.gmail.users.messages.send({
-        'userId': 'me',
-        'resource': {
-            'raw': makeEmail(senderEmail, 'dev.neerajrekwar@gmail.com', subject, message),
+    // Send email using Email.js
+    emailjs.send("gmail", "template_your_email_template_id", {
+        from_email: senderEmail,
+        to_email: recipientEmail,
+        subject: subject,
+        message: message,
+    }).then(
+        function (response) {
+            console.log("Email sent successfully:", response);
+            document.getElementById('statusMessage').innerHTML = 'Email sent successfully!';
+            document.getElementById('statusMessage').style.color = '#4caf50';
+        },
+        function (error) {
+            console.error("Error sending email:", error);
+            document.getElementById('statusMessage').innerHTML = 'Error sending email.';
+            document.getElementById('statusMessage').style.color = '#f44336';
         }
-    }).then(function (response) {
-        console.log('Email sent successfully: ', response);
-        document.getElementById('statusMessage').innerHTML = 'Email sent successfully!';
-        document.getElementById('statusMessage').style.color = '#4caf50';
-    }).catch(function (error) {
-        console.error('Error sending email: ', error);
-        document.getElementById('statusMessage').innerHTML = 'Error sending email.';
-        document.getElementById('statusMessage').style.color = '#f44336';
-    });
+    );
 }
-
-function makeEmail(sender, to, subject, body) {
-    const headers = [
-        'Content-Type: text/plain; charset="UTF-8"',
-        'MIME-Version: 1.0',
-        `To: ${to}`,
-        `Subject: ${subject}`,
-        `From: ${sender}`,
-    ];
-
-    const message = headers.join('\r\n') + '\r\n\r\n' + body;
-    const encodedMessage = btoa(message);
-
-    return encodedMessage;
-}
-
-gapi.load('client:auth2', initClient);
