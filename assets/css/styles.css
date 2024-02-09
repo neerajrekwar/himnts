@@ -626,7 +626,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-main p{
+main .pack-price{
 	display: flex;
 	justify-content: center;
 	align-items: center;
