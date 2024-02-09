@@ -581,6 +581,9 @@ footer {
 .cpyrt-line{
 	border-bottom: 1px solid;
 }
+.himnts24{
+	font-size: .5em;
+}
 
 
 @media all and (max-width: 767px) {
