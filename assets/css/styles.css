@@ -576,7 +576,9 @@ footer {
 }
 
 
-
+@media screen and (max-width: ) {
+	
+}
 @media all and (max-width: 767px) {
 
 	body {
