@@ -535,83 +535,95 @@ footer {
 	z-index: 0;
 	box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
 }
+
 .pack-img {
-    height: 150px;
-    overflow: hidden;
-    display: flex;
-    align-content: space-around;
-    align-items: center;
-    justify-content: space-around;
+	height: 150px;
+	overflow: hidden;
+	display: flex;
+	align-content: space-around;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .pack-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(305px, 2fr));
-    /* border: 2px solid; */
-    width: 100%;
-    margin: 0 auto;
-    text-align: left;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(305px, 2fr));
+	/* border: 2px solid; */
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
 }
 
 .pack-card {
 	/* border: 2px solid; */
-    height: auto;
-    /* aspect-ratio: 4/5; */
-    padding: 10px;
-    margin: 10px;
-	background-color: var(--raisin-black);
+	height: auto;
+	/* aspect-ratio: 4/5; */
+	padding: 30px;
+	margin: 10px;
+	background-color: hsl(240deg 7% 90%);
+	border-radius: 7px;
+	box-shadow: 4px 6px 0px;
 }
+
 .footer-box {
-    /* border: 2px solid; */
-    display: flex;
+	/* border: 2px solid; */
+	display: flex;
 	padding: 10px;
 	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
 .f-box {
-    /* display: flex; */
-    text-align: inherit;
-    margin: 2% 1rem 10px;
+	/* display: flex; */
+	text-align: inherit;
+	margin: 2% 1rem 10px;
 }
+
 .f-dispay {
-    margin: 14px 0 1em;
+	margin: 14px 0 1em;
 }
+
 .f-logo {
 	font-size: 1.5em;
-    text-decoration: none;
-    font-weight: bold;
-    color: #353535;
+	text-decoration: none;
+	font-weight: bold;
+	color: #353535;
 }
+
 .f-logo {
 	font-size: 1.2em;
-    text-decoration: none;
-    font-weight: bold;
-    color: #353535;
+	text-decoration: none;
+	font-weight: bold;
+	color: #353535;
 
 }
-.cpyrt-line{
+
+.cpyrt-line {
 	border-bottom: 1px solid;
 }
-.cp-box{
+
+.cp-box {
 	display: flex;
-    text-align: center;
-    justify-content: space-around;
+	text-align: center;
+	justify-content: space-around;
 }
-.himnts24{
+
+.himnts24 {
 	font-size: 10px;
 }
-.pack-sec{
+
+.pack-sec {
 	display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 
 @media all and (max-width: 767px) {
 
 	body {
 		width: 100%;
-		
+
 		background-repeat: no-repeat;
 		background-position: center;
 		object-fit: fill;
