@@ -387,7 +387,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	position: relativ;
-	/* background: #7bff00; */
+	background: rgb(249 255 143);
 	margin: 0;
 	padding: 0;
 }
@@ -583,7 +583,8 @@ footer {
 }
 .cp-box{
 	display: flex;
-	text-align: center;
+    text-align: center;
+    justify-content: space-around;
 }
 .himnts24{
 	font-size: .5em;
