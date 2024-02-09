@@ -267,49 +267,11 @@
     </section>
     <section>
       <div>
-        <h2>Testimonials</h2>
+        <h2 class="sub-h2x">Testimonials</h2>
       </div>
       <div>
-        <h2>contact</h2>
-        <form id="emailForm">
-          <label for="to">To:</label>
-          <input type="email" id="to" name="to" required>
-
-          <label for="subject">Subject:</label>
-          <input type="text" id="subject" name="subject" required>
-
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-
-          <button type="button" onclick="sendEmail()">Send Email</button>
-        </form>
-
-        <script>
-          async function sendEmail() {
-            const to = document.getElementById("to").value;
-            const subject = document.getElementById("subject").value;
-            const message = document.getElementById("message").value;
-
-            try {
-              const response = await fetch('/send-email', {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                  to: to,
-                  subject: subject,
-                  message: message,
-                }),
-              });
-              const result = await response.json();
-              alert(result.message);
-            } catch (error) {
-              console.error('Error:', error);
-              alert('Error sending email. Please try again.');
-            }
-          }
-        </script>
+        <h2 class="sub-h2x">contact</h2>
+        
       </div>
     </section>
   </main>
