@@ -626,10 +626,13 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-main .pack-price{
+main p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.pack-price{
+	text-align: left;
 }
 @media all and (max-width: 767px) {
 
