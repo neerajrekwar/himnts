@@ -561,6 +561,19 @@ footer {
     margin: 10px;
 	box-shadow: 3px 4px 2px #5e7169;
 }
+.pack-img{
+	background-color: #fff;
+	object-fit: cover;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.pack-img img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .footer-box {
     /* border: 2px solid; */
     display: flex;
