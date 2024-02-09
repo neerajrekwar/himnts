@@ -625,7 +625,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-p{
+main p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
