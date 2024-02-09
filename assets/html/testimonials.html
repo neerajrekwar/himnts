@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #testimonials-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .testimonial {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: #555;
+        }
+
+        .testimonial-author {
+            margin-top: 10px;
+            text-align: right;
+            color: #777;
+        }
+
+        #testimonial-form {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="testimonials-container" class="container">
+
+        <!-- Testimonial Display Area -->
+        <div id="testimonials-list"></div>
+
+        <!-- Testimonial Submission Form -->
+        <div id="testimonial-form">
+            <h2>Submit Your Testimonial</h2>
+            <form id="addTestimonialForm">
+                <label for="testimonialText">Your Testimonial:</label>
+                <textarea class="form-control" id="testimonialText" rows="4" required></textarea>
+                <br>
+                <label for="authorName">Your Name:</label>
+                <input type="text" class="form-control" id="authorName" required>
+                <br>
+                <button type="button" class="btn btn-primary" onclick="addTestimonial()">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script>
+        function addTestimonial() {
+            // Get values from the form
+            var testimonialText = $("#testimonialText").val();
+            var authorName = $("#authorName").val();
+
+            // Create a new testimonial element
+            var testimonialElement = $("<div>").addClass("testimonial")
+                .html("<p>" + testimonialText + "</p>" +
+                    "<p class='testimonial-author'>- " + authorName + "</p>");
+
+            // Append the new testimonial to the testimonials list
+            $("#testimonials-list").append(testimonialElement);
+
+            // Clear the form inputs
+            $("#addTestimonialForm")[0].reset();
+        }
+    </script>
+
+</body>
+
+</html>
