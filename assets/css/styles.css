@@ -591,6 +591,9 @@ footer {
 }
 .pack-sec{
 	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 @media all and (max-width: 767px) {
