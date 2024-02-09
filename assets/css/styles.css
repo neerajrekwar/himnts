@@ -554,6 +554,10 @@ footer {
 	box-shadow: 3px 4px 2px #5e7169;
 	border-radius: 1em;
 }
+.pack-card span{
+	padding: 1% 0;
+	font-size: larger;
+}
 .pack-img{
 	height: 150px;
     overflow: hidden;
