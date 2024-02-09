@@ -548,6 +548,16 @@ footer {
     padding: 10px;
 }
 
+.footer-box {
+    border: 2px solid;
+    display: flex;
+	padding: 10px;
+}
+.f-box {
+    /* display: flex; */
+    text-align: inherit;
+    margin: 2% 2rem 15px;
+}
 @media all and (max-width: 767px) {
 
 	body {
