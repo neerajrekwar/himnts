@@ -385,7 +385,7 @@ footer {
 	/* height: 200px; */
 	bottom: 0;
 	width: 100%;
-	position: absolute;
+	position: relative;
 	background: #7bff00;
 	margin: 0;
 	padding: 0;
