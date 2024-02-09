@@ -558,6 +558,10 @@ footer {
     text-align: inherit;
     margin: 2% 2rem 15px;
 }
+.f-dispay {
+    margin: 14px 0 1em;
+}
+
 @media all and (max-width: 767px) {
 
 	body {
