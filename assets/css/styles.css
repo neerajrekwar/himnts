@@ -649,7 +649,8 @@ main p {
 }
 
 .pack-price {
-	text-align: left;
+	text-align: justify;
+    display: contents;
 }
 
 @media all and (max-width: 767px) {
