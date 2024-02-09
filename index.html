@@ -267,20 +267,58 @@
     </section>
     <section>
       <div>
-        <h3>Testimonials</h3>
+        <h2>Testimonials</h2>
       </div>
       <div>
-        <h3>contact</h3>
+        <h2>contact</h2>
+        <form id="emailForm">
+          <label for="to">To:</label>
+          <input type="email" id="to" name="to" required>
 
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="button" onclick="sendEmail()">Send Email</button>
+        </form>
+
+        <script>
+          async function sendEmail() {
+            const to = document.getElementById("to").value;
+            const subject = document.getElementById("subject").value;
+            const message = document.getElementById("message").value;
+
+            try {
+              const response = await fetch('/send-email', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                  to: to,
+                  subject: subject,
+                  message: message,
+                }),
+              });
+              const result = await response.json();
+              alert(result.message);
+            } catch (error) {
+              console.error('Error:', error);
+              alert('Error sending email. Please try again.');
+            }
+          }
+        </script>
       </div>
     </section>
   </main>
   <footer id="footer">
     <div class="footer-box">
-      <div class="f-box1">
-        <a href="/">himnts</a>
-        <p>himnts Aa Innovative Think & Professionals Balloon Decoration</p>
-        <ul>
+      <div class="f-box">
+        <a class="f-logo" href="/">himnts</a>
+        <p class="f-slogan">himnts Aa Innovative Think & Professionals Balloon Decoration</p>
+        <ul class="f-dispay">
           <li><a href="https://www.linkedin.com/company/himnts">Linkedin</a></li>
           <li><a href="https://instagram.com/himnts_art">Instagram</a></li>
           <li><a href="https://in.pinterest.com/himnts">Pinterest</a></li>
@@ -288,24 +326,25 @@
           <li><a href="https://wa.me/8882358053">Whatsapp</a></li>
         </ul>
       </div>
-      <div class="f-box2">
-        <a href="">HIMNTS</a>
-        <ul>
+
+      <div class="f-box">
+        <a class="f-logo" href="">HIMNTS</a>
+        <ul class="f-dispay">
           <li>About</li>
           <li>Blog</li>
           <li>Packages</li>
         </ul>
       </div>
-      <div class="f-box3">
-        <a href="">Support</a>
-        <ul>
+      <div class="f-box">
+        <a class="f-ifo" href="">Support</a>
+        <ul class="f-dispay">
           <li>Product Help</li>
           <li>New Design</li>
         </ul>
       </div>
-      <div class="f-box4">
-        <a href="">For business</a>
-        <ul>
+      <div class="f-box">
+        <a class="f-ifo" href="">For business</a>
+        <ul class="f-dispay">
           <li></li>
           <li></li>
           <li></li>
