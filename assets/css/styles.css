@@ -578,7 +578,9 @@ footer {
     color: #353535;
 
 }
-
+.cpyrt-line{
+	border-bottom: 1px solid;
+}
 
 
 @media all and (max-width: 767px) {
