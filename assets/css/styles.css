@@ -581,6 +581,10 @@ footer {
 .cpyrt-line{
 	border-bottom: 1px solid;
 }
+.cp-box{
+	display: flex;
+	text-align: center;
+}
 .himnts24{
 	font-size: .5em;
 }
