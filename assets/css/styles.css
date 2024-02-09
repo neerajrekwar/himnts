@@ -385,6 +385,7 @@ footer {
 	/* height: 200px; */
 	bottom: 0;
 	width: 100%;
+	position: absolute;
 	background: #7bff00;
 	margin: 0;
 	padding: 0;
@@ -576,9 +577,7 @@ footer {
 }
 
 
-@media screen and (max-width: ) {
-	
-}
+
 @media all and (max-width: 767px) {
 
 	body {
