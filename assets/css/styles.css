@@ -654,8 +654,17 @@ main p {
 }
 .pack-card .booking-now{
    display: flex;
-   
 }
+
+.booking-now{
+	
+}
+.book-tel, .book-wa{
+	padding: 10px;
+	margin: 0;
+	font-size: 1em;
+}
+
 @media all and (max-width: 767px) {
 
 	body {
