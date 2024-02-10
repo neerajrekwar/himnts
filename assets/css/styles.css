@@ -680,7 +680,9 @@ main p {
 	-webkit-text-fill-color: transparent;
 }
 
-.pack-title {}
+.pack-title {
+	font-size: x-large;
+}
 
 .pack-details {
 	padding: 5% 0 3.2%;
