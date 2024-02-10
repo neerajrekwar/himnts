@@ -670,6 +670,7 @@ main p {
     font-size: 1em;
     text-decoration: none;
     color: #fff;
+	background-color: #4e5147;
 }
 
 @media all and (max-width: 767px) {
