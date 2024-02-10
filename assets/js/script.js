@@ -1,14 +1,3 @@
-
-
-function updateTotal() {
-  // Get selected values
-  var customItemPrice = parseFloat(document.getElementById("prizeSelect").value);
-
-  // Update the total price element
-  var totalPrice = 1399 + customItemPrice;
-  document.getElementById("totalPrice").textContent = '₹' + totalPrice.toFixed(2);
-}
-
 const myNavee = document.querySelector(".button-three");
 
 myNavee.addEventListener("click", () => {
@@ -21,3 +10,13 @@ myNavee.addEventListener("click", () => {
     myNavee.setAttribute("aria-expanded", "false");
   }
 });
+
+function updateTotal() {
+  // Get selected values
+  var customItemPrice = parseFloat(document.getElementById("prizeSelect").value);
+
+  // Update the total price element
+  var totalPrice = 1399 + customItemPrice;
+ 
+}
+document.getElementById("totalPrice").textContent = '₹' + totalPrice.toFixed(2);
