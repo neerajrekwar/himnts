@@ -562,7 +562,7 @@ footer {
 
 .pack-card span {
 	padding: 1% 0;
-	font-size: larger;
+	font-size:xx-large;
 }
 
 .pack-img {
@@ -663,17 +663,18 @@ main p {
 	text-align: center;
 }
 
-.pack-card .pack-name{
+.pack-card .pack-name {
 	text-align: right;
 }
+
 .pack-name {
 	font-weight: bold;
 	border: 2px solid gray;
 	border-radius: 1em;
-	background: hsla(277, 79%, 84%, 1);
-	background: linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
-	background: -moz-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
-	background: -webkit-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+	background: hsla(348, 88%, 66%, 1);
+	background: linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
+	background: -moz-linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
+	background: -webkit-linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
