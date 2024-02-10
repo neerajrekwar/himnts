@@ -659,6 +659,7 @@ main p {
     align-items: stretch;
     background-color: black;
     border-radius: 0.9em;
+	text-align: center;
 }
 
 .booking-now{
@@ -670,7 +671,8 @@ main p {
     font-size: 1em;
     text-decoration: none;
     color: #fff;
-	background-color: #4e5147;
+    background-color: #4e5147;
+    border-radius: 0.6em;
 }
 
 @media all and (max-width: 767px) {
