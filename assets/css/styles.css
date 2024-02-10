@@ -663,11 +663,11 @@ main p {
 }
 .pack-details{
 	padding: 5% 0 3.2%;
-	font-size: ;
+	
 
 }
 .details{
-
+    font-size: .9em;
 }
 .booking-now{
 
