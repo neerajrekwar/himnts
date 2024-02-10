@@ -674,6 +674,10 @@ main p {
     background-color: #4e5147;
     border-radius: 0.6em;
 }
+.book-tel + .book-wa:hover:active{
+    color: tomato;
+	background-color: #ececb9;
+}
 
 @media all and (max-width: 767px) {
 
