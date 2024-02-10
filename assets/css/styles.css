@@ -650,41 +650,56 @@ main p {
 
 .pack-price {
 	text-align: justify;
-    display: contents;
+	display: contents;
 }
-.pack-card .booking-now{
+
+.pack-card .booking-now {
 	display: flex;
-    align-content: space-between;
-    justify-content: space-evenly;
-    align-items: stretch;
-    background-color: black;
-    border-radius: 0.9em;
+	align-content: space-between;
+	justify-content: space-evenly;
+	align-items: stretch;
+	background-color: black;
+	border-radius: 0.9em;
 	text-align: center;
 }
-.pack-name{}
-.pack-title{}
-.pack-details{
+
+.pack-name {
+	background: hsla(277, 79%, 84%, 1);
+	background: linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+	background: -moz-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+	background: -webkit-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.pack-title {}
+
+.pack-details {
 	padding: 5% 0 3.2%;
-	
+
 
 }
-.details{
-    /* font-size: .9em; */
-}
-.booking-now{
 
+.details {
+	/* font-size: .9em; */
 }
-.book-tel, .book-wa{
+
+.booking-now {}
+
+.book-tel,
+.book-wa {
 	padding: 10px;
-    margin: 0;
-    font-size: 1em;
-    text-decoration: none;
-    color: #fff;
-    background-color: #4e5147;
-    border-radius: 0.6em;
+	margin: 0;
+	font-size: 1em;
+	text-decoration: none;
+	color: #fff;
+	background-color: #4e5147;
+	border-radius: 0.6em;
 }
-.book-now:is(.book-tel,.book-wa):hover:active{
-    color: tomato;
+
+.book-now:is(.book-tel, .book-wa):hover:active {
+	color: tomato;
 	background-color: #ececb9;
 }
 
