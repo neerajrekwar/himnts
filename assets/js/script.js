@@ -12,7 +12,8 @@ myNavee.addEventListener("click", () => {
 });
 
  let addOnNeon = document.getElementById("prizeSelect").value;
+ let newPrice = document.getElementById("totalPrize");
 
- const tatal = addOnNeon + 300;
+ const totalPrice = addOnNeon + 1399;
 
- document.getElementById("totalPrice").textContent = total.toFixed(2);
+ document.getElementById("totalPrice").textContent = totalPrice.toFixed(2);
