@@ -11,9 +11,18 @@ myNavee.addEventListener("click", () => {
   }
 });
 
- let addOnNeon = document.getElementById("prizeSelect").value;
- let newPrice = document.getElementById("totalPrize");
+function updateTotal() {
+  // Get selected values
+  var item1Price = parseFloat(document.getElementById("item1").value);
+  var item2Price = parseFloat(document.getElementById("item2").value);
+  var customItemPrice = parseFloat(document.getElementById("prizeSelect").value);
 
- const totalPrice = addOnNeon + 1399;
+  // Calculate total price
+  var totalPrice = item1Price + item2Price + customItemPrice;
 
- document.getElementById("totalPrize").textContent = totalPrice.toFixed(2);
+  // Update the total price element
+  document.getElementById("totalPrice").textContent = '₹' + totalPrice.toFixed(2);
+}
+
+// Attach the updateTotal function to the onchange event of the dropdown
+document.getElementById("prizeSelect").addEventListener("change", updateTotal);
