@@ -661,6 +661,8 @@ main p {
     border-radius: 0.9em;
 	text-align: center;
 }
+.pack-name{}
+.pack-title{}
 .pack-details{
 	padding: 5% 0 3.2%;
 	
