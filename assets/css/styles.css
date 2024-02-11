@@ -693,7 +693,7 @@ main p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-	background: -webkit-linear-gradient(170deg, hsl(56, 66%, 59%) 0%, hsl(64, 73%, 45%) 100%), hsl(191, 78%, 16%);
+	background: -webkit-linear-gradient(170deg, hsl(106, 66%, 59%) 0%, hsl(64, 73%, 45%) 100%), hsl(191, 78%, 16%);
 }
 
 .pack-details {
