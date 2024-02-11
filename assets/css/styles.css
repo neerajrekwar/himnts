@@ -683,8 +683,14 @@ main p {
 }
 
 .pack-title {
-	font-size: x-large;
-	background-clip: text;
+	font-weight: bold;
+    /* border: 2px solid gray; */
+    /* border-radius: 1em; */
+    font-size: 1.5em;
+    padding: 0 16px 47px;
+    /* text-decoration: dotted; */
+    background: rgb(205, 238, 61);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	background: -webkit-linear-gradient(170deg, hsl(56, 66%, 59%) 0%, hsl(64, 73%, 45%) 100%), hsl(191, 78%, 16%);
