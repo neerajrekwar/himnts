@@ -296,7 +296,6 @@ li {
 
 .navlink li a {
 	color: #000;
-	background-color: #dada2a;
 	transition: 0.5s;
 	/* aspect-ratio: 3/2; */
 	padding: 10px;
@@ -308,7 +307,7 @@ li {
 
 .navbar li a:hover {
 	color: rgb(0, 0, 0);
-	background-color: #ececb9;
+	background-color: #dada2a;
 	transition: margin-right 15px .2s;
 	/* transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%); */
 
