@@ -290,7 +290,6 @@ button {
 	width: 10px;
 	z-index: -1;
   }
-  
   .book-btn:hover {
 	box-shadow: 1px 1px 200px #252525;
 	color: #fff;
