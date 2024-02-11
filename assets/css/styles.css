@@ -713,7 +713,8 @@ main p {
 	border-radius: 0.6em;
 }
 
-.book-now:is(.book-tel, .book-wa):hover:active {
+.book-tel:hover:active
+.book-wa:hover:active {
 	color: tomato;
 	background-color: #ececb9;
 }
