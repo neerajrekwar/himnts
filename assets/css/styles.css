@@ -451,8 +451,12 @@ footer {
 
 .explore-btn {
 	/* text-decoration: none; */
-	color: #000000;
+	color: #ffffff;
 	font-size: 22px;
+	border-radius: 15px;
+	padding: 15px;
+	background-color: #353535;
+
 }
 
 .img-box {
@@ -562,7 +566,7 @@ footer {
 
 .pack-card span {
 	padding: 1% 0;
-	font-size:xx-large;
+	font-size: xx-large;
 }
 
 .pack-img {
