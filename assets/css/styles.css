@@ -711,13 +711,15 @@ main p {
 .book-tel,
 .book-wa {
 	padding: 10px;
-	margin: 0;
-	font-size: 1em;
-	text-decoration: none;
-	color: #fff;
-	background-color: #4e5147;
-	border-radius: 0.6em;
-}
+    margin: 5px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4e5147;
+    border-radius: 0.6em;
+    backdrop-filter: blur(1px);
+    height: 100%;
+    width: 100%;
 
 .book-tel:hover:active
 .book-wa:hover:active {
