@@ -650,7 +650,10 @@ main p {
 
 .pack-price {
 	text-align: justify;
-	display: contents;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: x-large;
 }
 
 .pack-card .booking-now {
