@@ -453,9 +453,6 @@ footer {
 	/* text-decoration: none; */
 	color: #ffffff;
 	font-size: 22px;
-	border-radius: 15px;
-	padding: 15px;
-	background-color: #353535;
 
 }
 
@@ -565,8 +562,8 @@ footer {
 }
 
 .pack-card span {
-	padding: 1em;
-	
+	padding: 1% 0;
+	font-size:xx-large;
 }
 
 .pack-img {
