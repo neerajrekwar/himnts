@@ -721,7 +721,7 @@ main p {
     backdrop-filter: blur(1px);
     height: 100%;
     width: 100%;
-
+}
 .book-tel:hover:active
 .book-wa:hover:active {
 	color: tomato;
