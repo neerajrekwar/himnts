@@ -562,8 +562,7 @@ footer {
 }
 
 .pack-card span {
-	padding: 1% 0;
-	/* font-size:xx-large; */
+	padding: 0 4px 12px;
 }
 
 .pack-img {
