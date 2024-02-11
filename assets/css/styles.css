@@ -672,11 +672,7 @@ main p {
 	font-weight: bold;
 	border: 2px solid gray;
 	border-radius: 1em;
-	background: hsla(348, 88%, 66%, 1);
-	background: linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
-	background: -moz-linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
-	background: -webkit-linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsla(36, 89%, 68%, 1) 100%);
-	background-clip: text;
+	background: -webkit-linear-gradient(90deg, hsl(348deg 71% 58%) 0%, hsl(191deg 88% 81%) 100%);background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
