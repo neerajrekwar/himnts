@@ -687,13 +687,13 @@ main p {
     /* border: 2px solid gray; */
     /* border-radius: 1em; */
     font-size: 1.5em;
-    padding: 0 16px 47px;
+    /* padding: 0 16px 47px; */
     /* text-decoration: dotted; */
-    background: rgb(205, 238, 61);
+    background: rgb(157, 202, 72);
+    /* background: linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsl(36deg 73% 37%) 100%); */
+    background: -webkit-linear-gradient(90deg, hsl(214, 84%, 49%) 0%, hsl(191deg 88% 81%) 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-	background: -webkit-linear-gradient(170deg, hsl(106, 66%, 59%) 0%, hsl(64, 73%, 45%) 100%), hsl(191, 78%, 16%);
 }
 
 .pack-details {
