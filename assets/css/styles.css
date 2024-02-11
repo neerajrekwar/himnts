@@ -258,7 +258,7 @@ button {
 	stroke-dashoffset: -90;
 }
 
-.button {
+.book-btn {
 	height: 50px;
 	width: 200px;
 	position: relative;
@@ -291,7 +291,7 @@ button {
 	z-index: -1;
   }
   
-  .button:hover {
+  .book-btn:hover {
 	box-shadow: 1px 1px 200px #252525;
 	color: #fff;
 	border: none;
