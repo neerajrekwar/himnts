@@ -20,4 +20,4 @@ function updateTotal() {
   document.getElementById("totalPrice").textContent = '₹' + totalPrice.toFixed(2);
 }
 
-me.mindStet(life.change('none').value);
+// me.mindStet(life.change('none').value);
