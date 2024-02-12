@@ -19,3 +19,5 @@ function updateTotal() {
   var totalPrice = 1399 + customItemPrice;
   document.getElementById("totalPrice").textContent = '₹' + totalPrice.toFixed(2);
 }
+
+me.mindStet(life.change('none').value);
