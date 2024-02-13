@@ -772,6 +772,8 @@ main p {
 	padding: 10px 30px;
 	background-color: #252525;
 	color: #fff;
+	border-radius: 50px;
+    overflow: hidden;
 }
 .booking{
    text-decoration: none;
