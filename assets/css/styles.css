@@ -765,7 +765,7 @@ strong{
    text-decoration: none;
    color: #f8f8f8;
 }
-.detail{
+.detail li{
 	font-size: small;
     font-style: italic;
 }
