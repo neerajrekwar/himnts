@@ -776,6 +776,10 @@ strong{
     font-weight: bolder;
     color: #818411;
 }
+.thank{
+	font-size: 1em;
+    padding: 10px 0 18px;
+}
 
 @media all and (max-width: 767px) {
 
