@@ -765,6 +765,10 @@ strong{
    text-decoration: none;
    color: #f8f8f8;
 }
+.detail{
+	font-size: small;
+    font-style: italic;
+}
 
 @media all and (max-width: 767px) {
 
