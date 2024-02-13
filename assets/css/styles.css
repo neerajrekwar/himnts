@@ -690,23 +690,7 @@ main p {
 	align-items: center;
 }
 
-.pack-price {
-	text-align: justify;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: x-large;
-}
 
-.pack-card .booking-now {
-	display: flex;
-	align-content: space-between;
-	justify-content: space-evenly;
-	align-items: stretch;
-	background-color: black;
-	border-radius: 0.9em;
-	text-align: center;
-}
 
 .pack-card .pack-name {
 	text-align: right;
