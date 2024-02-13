@@ -766,7 +766,7 @@ main p {
     /* font-family: serif; */
     color: #353535;
     padding-bottom: 11px;
-	border-bottom: 2px solid lightgray;
+	/* border-bottom: 2px solid lightgray; */
 }
 
 @media all and (max-width: 767px) {
