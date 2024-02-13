@@ -715,10 +715,7 @@ main p {
 .pack-name {
 	font-weight: bold;
     /* border: 2px solid gray; */
-    /* border-radius: 1em; */
     font-size: 1.5em;
-    /* padding: 0 16px 47px; */
-    /* text-decoration: dotted; */
     background: rgb(216 38 163);
     /* background: linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsl(36deg 73% 37%) 100%); */
     background: -webkit-linear-gradient(90deg, hsl(348deg 71% 58%) 0%, hsl(191deg 88% 81%) 100%);
@@ -730,10 +727,7 @@ main p {
 .pack-title {
 	font-weight: bold;
     /* border: 2px solid gray; */
-    /* border-radius: 1em; */
     font-size: 1.5em;
-    /* padding: 0 16px 47px; */
-    /* text-decoration: dotted; */
     background: rgb(157, 202, 72);
     /* background: linear-gradient(90deg, hsla(348, 88%, 66%, 1) 0%, hsl(36deg 73% 37%) 100%); */
     background: -webkit-linear-gradient(90deg, hsl(214, 84%, 49%) 0%, hsl(191deg 88% 81%) 100%);
