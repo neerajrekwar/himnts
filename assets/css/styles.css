@@ -723,8 +723,8 @@ main p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-} */
-
+*/
+}
 .pack-title {
 	font-weight: bold;
     /* border: 2px solid gray; */
@@ -767,6 +767,15 @@ main p {
     color: #353535;
     padding-bottom: 11px;
 	/* border-bottom: 2px solid lightgray; */
+}
+.btn{
+	padding: 10px 30px;
+	background-color: #252525;
+	color: #fff;
+}
+.booking{
+   text-decoration: none;
+   color: #f8f8f8;
 }
 
 @media all and (max-width: 767px) {
