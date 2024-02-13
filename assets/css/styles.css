@@ -709,6 +709,9 @@ main p {
     -webkit-text-fill-color: transparent;
 */
 }
+strong{
+	font-weight: 900;
+}
 .pack-title {
 	font-weight: bold;
     /* border: 2px solid gray; */
