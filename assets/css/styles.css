@@ -753,6 +753,26 @@ main p {
     color: #353535;
 }
 
+.pack-info{
+	display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+	display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    
+}
+.title {
+    font-size: 1em;
+    font-weight: bold;
+    /* font-family: serif; */
+    color: #353535;
+    padding-bottom: 11px;
+	border-bottom: 2px solid lightgray;
+}
 
 @media all and (max-width: 767px) {
 
