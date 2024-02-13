@@ -769,6 +769,11 @@ strong{
 	font-size: small;
     font-style: italic;
 }
+.description{
+	font-size: medium;
+    font-weight: bolder;
+    color: #818411;
+}
 
 @media all and (max-width: 767px) {
 
