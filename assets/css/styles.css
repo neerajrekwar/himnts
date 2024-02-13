@@ -621,7 +621,7 @@ footer {
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 0 6% 0;
-	background-image: url(/src/crsl-images/IMG20230426200128.jpg);
+	/* background-image: url(/src/crsl-images/IMG20230426200128.jpg); */
 }
 
 .pack-img img {
@@ -752,7 +752,7 @@ main p {
     font-weight: 900;
     color: #353535;
 }
-}
+
 
 @media all and (max-width: 767px) {
 
