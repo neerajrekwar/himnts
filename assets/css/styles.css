@@ -767,6 +767,9 @@ strong{
 }
 .detail li{
 	font-size: small;
+    padding: 5px 1px 0;
+    font-weight: bolder;
+    color: #353535;
 }
 .description{
 	font-size: medium;
