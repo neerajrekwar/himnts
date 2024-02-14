@@ -770,6 +770,9 @@ strong{
     padding: 5px 15px 0;
     font-weight: bolder;
     color: #353535;
+    background: -webkit-linear-gradient(249deg, #636300 0%, hsl(0deg 0% 31%) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .description{
 	padding: 6px 16px;
