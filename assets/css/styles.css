@@ -772,9 +772,14 @@ strong{
     color: #353535;
 }
 .description{
-	font-size: medium;
-    font-weight: bolder;
-    color: #818411;
+	padding: 6px 16px;
+    /* background: gainsboro; */
+    background: -webkit-linear-gradient(244deg, hsla(39, 100%, 96%, 1) 0%, hsla(60, 89%, 72%, 1) 100%);
+    width: fit-content;
+    border-radius: 50px;
+    font-size: small;
+    color: #353535;
+    margin: 13px 0;
 }
 .thank{
 	font-size: 1em;
