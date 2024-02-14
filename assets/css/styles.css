@@ -593,7 +593,7 @@ footer {
 
 .pack-card {
 	/* border: 2px solid; */
-	height: auto;
+	height: max-content;
 	/* aspect-ratio: 4/5; */
 	padding: 10px;
 	margin: 10px;
