@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Message Sender</title>
+</head>
+<body>
+  <h1>Package Details</h1>
+
+  <p id="packageDetails">Name: <span id="packageName">Your Package Name</span>, Price: <span id="packagePrice">$99.99</span></p>
+
+  <button onclick="sendWhatsAppMessage()">Send WhatsApp Message</button>
+
+  <script>
+    function sendWhatsAppMessage() {
+      const packageName = document.getElementById('packageName').innerText;
+      const packagePrice = document.getElementById('packagePrice').innerText;
+
+      // Replace the following number with the desired WhatsApp number
+      const phoneNumber = '1234567890';
+
+      const message = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}`;
+
+      const waMeLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+      // Open WhatsApp link in a new tab
+      window.open(waMeLink, '_blank');
+    }
+  </script>
+</body>
+</html>
