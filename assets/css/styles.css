@@ -769,9 +769,7 @@ strong {
 	border-radius: 50px;
 	overflow: hidden;
 	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
-	width: 150px;
-	height: 60px;
-
+	
 }
 
 .btn:hover {
