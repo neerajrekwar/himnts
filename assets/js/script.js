@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const packagePrice = button.getAttribute('data-package-price');
 
       const waMessage = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}`;
-      const waLink = `https://wa.me/1234567890?text=${encodeURIComponent(waMessage)}`;
+      const waLink = `https://wa.me/+918882358053?text=${encodeURIComponent(waMessage)}`;
 
       // Open WhatsApp chat link
       window.open(waLink, '_blank');
