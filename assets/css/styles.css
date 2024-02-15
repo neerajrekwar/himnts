@@ -761,10 +761,11 @@ strong{
 	color: #fff;
 	border-radius: 50px;
     overflow: hidden;
-	transition: padding right cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
 }
 .btn:hover{
     border: 2px solid #5e7169;
+	font-size: 10px;
 	
 }
 .booking .wa:hover{
