@@ -10,6 +10,7 @@ html {
 	padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 :root {
 	/* CSS HEX */
 	--raisin-black: rgba(30, 30, 41, 0.747);
