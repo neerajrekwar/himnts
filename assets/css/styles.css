@@ -594,7 +594,7 @@ footer {
 	background: -webkit-linear-gradient(90deg, hsla(191, 88%, 81%, 1) 0%, hsla(260, 72%, 82%, 1) 50%, hsla(247, 73%, 69%, 1) 100%);
 }
 
-.pack_card {
+.package {
 	border: 6px solid #cdc632;
 	height: max-content;
 	/* aspect-ratio: 4/5; */
@@ -605,7 +605,7 @@ footer {
 	background-color: #fff;
 }
 
-/* .pack_card span {
+/* .package span {
 	padding: 0 4px 12px;
 } */
 
@@ -694,7 +694,7 @@ main p {
 
 
 
-.pack_card .pack-name {
+.package .pack-name {
 	text-align: right;
 }
 
