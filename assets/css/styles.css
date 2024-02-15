@@ -769,15 +769,17 @@ strong {
 	border-radius: 50px;
 	overflow: hidden;
 	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
-	transform-origin:center ;
-	
+	transform-origin: center;
+
 }
-.wa:hover{
+
+.wa:hover {
 	/* border: 2px solid rgb(47, 255, 113); */
 	color: #252525;
-	background-color:  rgb(47, 255, 113);
+	background-color: rgb(47, 255, 113);
 }
-.tel:hover{
+
+.tel:hover {
 	/* border: 2px solid rgb(43, 43, 43); */
 	color: #252525;
 	background-color: #dada2a;
@@ -863,17 +865,19 @@ strong {
 	.navbar.active {
 		display: flex;
 		justify-content: center;
-		align-items: flex-start;
+		align-items: flex-end;
 		flex-direction: column;
 		position: absolute;
 		top: 70px;
 		right: 40px;
 		border: 2px solid;
 		border-radius: 5px;
-		background-color: transparent;
+		background: linear-gradient(50deg, hsla(33, 100%, 87%, 1) 0%, hsla(58, 95%, 77%, 1) 98%);
+		background: -moz-linear-gradient(50deg, hsla(33, 100%, 87%, 1) 0%, hsla(58, 95%, 77%, 1) 98%);
+		background: -webkit-linear-gradient(50deg, hsla(33, 100%, 87%, 1) 0%, hsla(58, 95%, 77%, 1) 98%);
 		backdrop-filter: blur(4px);
-		width: 40%;
-		z-index: 5;
+		width: 67%;
+
 	}
 
 	.headline {
