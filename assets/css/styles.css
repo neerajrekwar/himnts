@@ -38,6 +38,7 @@ body {
 	background-size: cover;
 	/* border: 5px solid rgb(216, 38, 163); */
 	margin: 10px;
+	font-size: 16px;
 }
 
 main {
@@ -822,16 +823,17 @@ strong {
 .himnts-pack {
 	font-weight: 700;
 }
-.himnts-intro{
+
+.himnts-intro {
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
-    background: -webkit-linear-gradient(50deg, hsla(33, 100%, 87%, 1) 0%, hsla(58, 95%, 77%, 1) 98%);
-    width: fit-content;
-    margin: 0 auto;
-    padding: 5px 15px;
-    border-radius: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: aqua;
+	background: -webkit-linear-gradient(50deg, hsla(33, 100%, 87%, 1) 0%, hsla(58, 95%, 77%, 1) 98%);
+	width: fit-content;
+	margin: 0 auto;
+	padding: 5px 15px;
+	border-radius: 50px;
 }
 
 @media all and (max-width: 767px) {
@@ -950,5 +952,40 @@ strong {
 		margin: 10px;
 		font-size: 2.1em;
 
+	}
+
+	.sub-h1x {
+		font-size: 3.2em;
+		padding: 10px;
+		margin: 0;
+		text-align: center;
+	}
+
+	.sub-h2x {
+		font-size: 2em;
+		padding: 10px;
+		text-align: left;
+		text-align: -webkit-left;
+		font-size: 2.5em;
+	}
+
+	.sub-h3x {
+		font-size: 1.5em;
+		padding: 10px 5px;
+	}
+
+	.sub-h4x {
+		font-size: 1.2em;
+		padding: 10px 5px;
+	}
+
+	.sub-h5x {
+		font-size: 1.1em;
+		padding: 10px 5px;
+	}
+
+	.sub-h6x {
+		font-size: .8em;
+		padding: 10px 5px;
 	}
 }
