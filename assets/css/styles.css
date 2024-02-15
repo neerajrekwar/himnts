@@ -773,12 +773,14 @@ strong {
 	
 }
 .wa:hover{
-	border: 2px solid rgb(47, 255, 113);
+	/* border: 2px solid rgb(47, 255, 113); */
 	color: #252525;
+	background-color:  rgb(47, 255, 113);
 }
 .tel:hover{
-	border: 2px solid rgb(43, 43, 43);
+	/* border: 2px solid rgb(43, 43, 43); */
 	color: #252525;
+	background-color: #dada2a;
 }
 
 .btn:hover {
