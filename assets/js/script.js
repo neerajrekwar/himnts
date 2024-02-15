@@ -24,7 +24,7 @@ myNavee.addEventListener("click", () => {
       const message = `Hello! I would like to book the following package:\n\nName: ${package.name}\nPrice: ${package.price}`;
 
       // Replace the following number with the desired WhatsApp number
-      const phoneNumber = '1234567890';
+      const phoneNumber = '+918882358053';
 
       const waMeLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
