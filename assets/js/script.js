@@ -11,13 +11,23 @@ myNavee.addEventListener("click", () => {
   }
 });
 
-function updateTotal() {
-  // Get selected values
-  var customItemPrice = parseFloat(document.getElementById("prizeSelect").value);
 
-  // Update the total price element
-  var totalPrice = 1399 + customItemPrice;
-  document.getElementById("totalPrice").textContent = '₹' + totalPrice.toFixed(2);
+function sendWhatsAppMessage() {
+  const packageName = document.getElementById('packageName').innerText;
+  const packageDetails = document.getElementById('packageDetails').innerText;
+  const packagePrice = document.getElementById('packagePrice').innerText;
+
+  // Replace the following number with the desired WhatsApp number
+  const phoneNumber = '1234567890';
+
+  const message = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}`;
+
+  const waMeLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  // Open WhatsApp link in a new tab
+  window.open(waMeLink, '_blank');
 }
 
 // me.mindStet(life.change('none').value);
+
+
