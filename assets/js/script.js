@@ -9,7 +9,7 @@ myNavee.addEventListener("click", () => {
   } else {
     myNavee.setAttribute("aria-expanded", "false");
   }
-})
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   const sendButtons = document.querySelectorAll('.send-btn');
