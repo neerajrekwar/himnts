@@ -762,6 +762,10 @@ strong{
 	border-radius: 50px;
     overflow: hidden;
 }
+.btn:hover{
+    border: 2px solid #5e7169;
+	background-color: #34b7f1;
+}
 .booking{
    text-decoration: none;
    color: #f8f8f8;
