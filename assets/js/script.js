@@ -31,7 +31,7 @@ function sendWhatsAppMessage() {
 
     const phoneNumber = "+918882358053";
 
-    const message = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}`;
+    const message = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}\nDetails: ${packageDetails}`;
 
     const waMeLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
