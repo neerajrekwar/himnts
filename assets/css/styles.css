@@ -775,7 +775,7 @@ strong {
 }
 
 .btn:hover {
-	border: 2px solid #5e7169;
+	/* border: 2px solid #5e7169; */
 	font-size: 14px;
 
 }
