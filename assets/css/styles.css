@@ -769,15 +769,7 @@ strong{
 	font-size: 14px;
 	
 }
-.booking .wa:hover{
-   text-decoration: none;
-   background-color: #40ff39;
-   transform: scale(100) rotate(2deg);
-}
-.booking .tel:hover{
-	text-decoration: none;
-	background-color: #fff;
-}
+
 
 .detail li{
 	font-size: small;
