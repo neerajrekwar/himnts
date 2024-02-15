@@ -13,6 +13,12 @@ myNavee.addEventListener("click", () => {
 
 function sendWhatsAppMessage() {
 
+  const packages = [
+    { name: 'Package 1', price: '$99.99' },
+    { name: 'Package 2', price: '$149.99' },
+    { name: 'Package 3', price: '$199.99' },
+    // Add more packages as needed
+  ];
   const packageElements = document.querySelectorAll('.pack_card');
   // const packageName = document.getElementById('packageName').innerText;
   // const packageDetails = document.getElementById('packageDetails').innerText;
