@@ -10,36 +10,27 @@ myNavee.addEventListener("click", () => {
     myNavee.setAttribute("aria-expanded", "false");
   }
 });
-
-function sendWhatsAppMessage() {
-
+ function sendWhatsAppMessages() {
+  
   const packages = [
     { name: 'Joyful', price: '&#8377;1399' },
     { name: 'Delight', price: '&#8377;2199' },
     { name: 'Extravaganza', price: '&#8377;3499' },
     // Add more packages as needed
   ];
-  const packageElements = document.querySelectorAll('.pack_card');
-  // const packageName = document.getElementById('packageName').innerText;
-  // const packageDetails = document.getElementById('packageDetails').innerText;
-  // const packagePrice = document.getElementById('packagePrice').innerText;
-
-  // Replace the following number with the desired WhatsApp number
-  packages.forEach((pack_card) => {
   
-    const packagePrice = packageElement.getAttribute("data-price");
-    const packageName = packageElement.getAttribute("data-name");
-    const packageDetails = document.getElementById('packageDetails').innerText;
 
-    const phoneNumber = "+918882358053";
+    packages.forEach(pack_card => {
+      const message = `Hello! I would like to book the following package:\n\nName: ${package.name}\nPrice: ${package.price}`;
 
-    const message = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}\nDetails: ${packageDetails}`;
+      // Replace the following number with the desired WhatsApp number
+      const phoneNumber = '1234567890';
 
-    const waMeLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      const waMeLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
-    // Open WhatsApp link in a new tab
-    window.open(waMeLink, "_blank");
-  });
-}
+      // Open WhatsApp link in a new tab for each package
+      window.open(waMeLink, '_blank');
+    });
+  }
 
 // me.mindStet(life.change('none').value);
