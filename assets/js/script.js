@@ -11,4 +11,20 @@ myNavee.addEventListener("click", () => {
   }
 })
 
+document.addEventListener('DOMContentLoaded', () => {
+  const sendButtons = document.querySelectorAll('.send-btn');
+
+  sendButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const packageName = button.getAttribute('data-package-name');
+      const packagePrice = button.getAttribute('data-package-price');
+
+      const waMessage = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}`;
+      const waLink = `https://wa.me/1234567890?text=${encodeURIComponent(waMessage)}`;
+
+      // Open WhatsApp chat link
+      window.open(waLink, '_blank');
+    });
+  });
+});
 // me.mindStet(life.change('none').value);
