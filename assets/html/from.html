@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gmail Web Message Sender</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gmail Web Message Sender</title>
 </head>
+
 <body>
 
-    <h1>Gmail Web Message Sender</h1>
+  <h1>Gmail Web Message Sender</h1>
 
-    <form id="emailForm">
-        <label for="to">To:</label>
-        <input type="email" id="to" name="to" required>
+  <form id="emailForm">
+    <label for="to">To:</label>
+    <input type="email" id="to" name="to" required>
 
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required>
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
 
-        <button type="button" onclick="sendEmail()">Send Email</button>
-    </form>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "connect.himnts@gmail.com", // Your Gmail address
-                Password: "hinmnts&connect", // Your Gmail password or App Password
-                To: document.getElementById("to").value,
-                From: "connect.himnts@gmail.com",
-                Subject: document.getElementById("subject").value,
-                Body: document.getElementById("message").value
-            }).then(
-                message => alert("Email sent successfully")
-            );
-        }
-    </script>
-
+    <button type="button" onclick="sendEmail()">Send Email</button>
+  </form>
+  <script>
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "connect.himnts@gmail.com", // Your Gmail address
+        Password: "hinmnts&connect", // Your Gmail password or App Password
+        To: document.getElementById("to").value,
+        From: "connect.himnts@gmail.com",
+        Subject: document.getElementById("subject").value,
+        Body: document.getElementById("message").value
+      }).then(
+        message => alert("Email sent successfully")
+      );
+    }
+  </script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script type="module" src="/assets/js/script.js"> </script>
 </body>
+
 </html>
