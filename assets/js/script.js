@@ -11,23 +11,33 @@ myNavee.addEventListener("click", () => {
   }
 });
 
-
 function sendWhatsAppMessage() {
-  const packageName = document.getElementById('packageName').innerText;
-  const packageDetails = document.getElementById('packageDetails').innerText;
-  const packagePrice = document.getElementById('packagePrice').innerText;
+  const packages = [
+    { name: "Joyful",  details: "$99.99" },
+    { name: "Package 2", price: "$149.99" },
+    { name: "Package 3", price: "$199.99" },
+    // Add more packages as needed
+  ];
+  // const packageName = document.getElementById('packageName').innerText;
+  // const packageDetails = document.getElementById('packageDetails').innerText;
+  // const packagePrice = document.getElementById('packagePrice').innerText;
 
   // Replace the following number with the desired WhatsApp number
-  const phoneNumber = '+918882358053';
+  packages.forEach((package) => {
+  
+    const packagePrice = packageElement.getAttribute("data-price");
+    const packageName = document.getElementById('packageName').innerText;
+    const packageDetails = document.getElementById('packageDetails').innerText;
 
-  const message = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}`;
+    const phoneNumber = "+918882358053";
 
-  const waMeLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const message = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}`;
 
-  // Open WhatsApp link in a new tab
-  window.open(waMeLink, '_blank');
+    const waMeLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+    // Open WhatsApp link in a new tab
+    window.open(waMeLink, "_blank");
+  });
 }
 
 // me.mindStet(life.change('none').value);
-
-
