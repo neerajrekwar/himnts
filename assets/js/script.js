@@ -13,12 +13,13 @@ myNavee.addEventListener("click", () => {
 
 function sendWhatsAppMessage() {
 
+  const packageElements = document.querySelectorAll('.pack_card');
   // const packageName = document.getElementById('packageName').innerText;
   // const packageDetails = document.getElementById('packageDetails').innerText;
   // const packagePrice = document.getElementById('packagePrice').innerText;
 
   // Replace the following number with the desired WhatsApp number
-  packages.forEach((package) => {
+  packages.forEach((pack_card) => {
   
     const packagePrice = packageElement.getAttribute("data-price");
     const packageName = packageElement.getAttribute("data-name");
