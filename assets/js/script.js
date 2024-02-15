@@ -20,7 +20,7 @@ myNavee.addEventListener("click", () => {
   ];
   
 
-    packages.forEach(package => {
+    packages.forEach(package  =>  {
       const message = `Hello! I would like to book the following package:\n\nName: ${package.name}\nPrice: ${package.price}`;
 
       // Replace the following number with the desired WhatsApp number
