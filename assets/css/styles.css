@@ -764,12 +764,17 @@ strong{
 	transition: padding right cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
 }
 .btn:hover{
-    /* border: 2px solid #5e7169; */
-	background-color: #40ff39;
+    border: 2px solid #5e7169;
+	
 }
-.booking{
+.booking .wa:hover{
    text-decoration: none;
-   color: #f8f8f8;
+   background-color: #40ff39;
+   transform: scale(100) rotate(2deg);
+}
+.booking .tel:hover{
+	text-decoration: none;
+	background-color: #fff;
 }
 .detail li{
 	font-size: small;
