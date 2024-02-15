@@ -146,7 +146,7 @@
           </div>
         </div>
       </div>
-      
+
       <script>
         document.addEventListener('DOMContentLoaded', () => {
           const sendButtons = document.querySelectorAll('.send-btn');
@@ -156,7 +156,7 @@
               const packageName = button.getAttribute('data-package-name');
               const packagePrice = button.getAttribute('data-package-price');
       
-              const waMessage = `Hello! I am interested in the following package:\n\nName: ${packageName}\nPrice: ${packagePrice}`;
+              const waMessage = `Hello! I am interested in the following package:\n\nPackage Name: ${packageName}\nPrice: ${packagePrice}`;
               const waLink = `https://wa.me/1234567890?text=${encodeURIComponent(waMessage)}`;
       
               // Open WhatsApp chat link
