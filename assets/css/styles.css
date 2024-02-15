@@ -761,7 +761,7 @@ strong{
 	color: #fff;
 	border-radius: 50px;
     overflow: hidden;
-	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+	/* transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s; */
 
 }
 .btn:hover{
