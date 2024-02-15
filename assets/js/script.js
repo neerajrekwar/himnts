@@ -13,9 +13,9 @@ myNavee.addEventListener("click", () => {
 
 function sendWhatsAppMessage() {
   const packages = [
-    { name: "Joyful",  details: "$99.99" },
-    { name: "Package 2", price: "$149.99" },
-    { name: "Package 3", price: "$199.99" },
+    { name: "Joyful",  price: "&#8377;1399" },
+    { name: "Delight", price: "&#8377;2199" },
+    { name: "Extravaganza", price: "&#8377;3499" },
     // Add more packages as needed
   ];
   // const packageName = document.getElementById('packageName').innerText;
@@ -26,7 +26,7 @@ function sendWhatsAppMessage() {
   packages.forEach((package) => {
   
     const packagePrice = packageElement.getAttribute("data-price");
-    const packageName = document.getElementById('packageName').innerText;
+    const packageName = packageElement.getAttribute("data-name");
     const packageDetails = document.getElementById('packageDetails').innerText;
 
     const phoneNumber = "+918882358053";
