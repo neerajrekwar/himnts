@@ -834,7 +834,10 @@ strong {
 	padding: 5px 15px;
 	border-radius: 50px;
 }
-
+.addon-container{
+	text-align: left;
+}
+/* endwork */
 @media all and (max-width: 767px) {
 
 	body {
