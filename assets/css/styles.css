@@ -933,15 +933,7 @@ strong {
 
 	.img-box {
 		height: 400px;
-		width: 100%;
 		overflow: hidden;
-
-		/* aspect-ratio:9/14; */
-		/* border: 2px solid; */
-		/* display: flex; */
-		/* align-items: center; */
-		/* height: 200px; */
-
 	}
 
 	.img-box img {
