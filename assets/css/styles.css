@@ -31,14 +31,14 @@ html {
 
 body {
 	width: 100%;
-	background: url(/src/bg-tem/stacked-waves-haikei.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	object-fit: fill;
-	background-size: cover;
-	/* border: 5px solid rgb(216, 38, 163); */
-	margin: 10px;
-	font-size: 16px;
+    background: url(/src/bg-tem/stacked-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    object-fit: cover;
+    background-size: contain;
+    /* border: 5px solid rgb(216, 38, 163); */
+    margin: 10px;
+    font-size: 16px;
 }
 
 main {
