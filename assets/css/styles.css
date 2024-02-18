@@ -413,7 +413,9 @@ section {
 }
 
 
-
+.para-txt1 {
+	margin: 10px;
+}
 .info {
 	/* border: 2px slateblue solid; */
 	text-align: left;
@@ -930,6 +932,9 @@ strong {
 		margin: 10px;
 		font-size: 2.1em;
 		width: 100%;
+	}
+	.para-txt1 {
+		margin: 10px;
 	}
 
 	.img-box {
