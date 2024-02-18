@@ -818,15 +818,12 @@ strong {
 }
 
 .himnts-intro {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: aqua;
 	background: -webkit-linear-gradient(50deg, hsla(33, 100%, 87%, 1) 0%, hsla(58, 95%, 77%, 1) 98%);
-	width: fit-content;
-	margin: 0 auto;
-	padding: 5px 15px;
-	border-radius: 50px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 13px;
 }
 
 .addon-container {
