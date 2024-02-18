@@ -925,10 +925,6 @@ strong {
 		background: beige;
 	}
 
-	.img-box {
-		height: 400px;
-		overflow: hidden;
-	}
 
 	.img-box img {
 		height: auto;
