@@ -931,11 +931,6 @@ strong {
 		font-size: 2.1em;
 		/* width: 60%; */
 		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: flex-start;
-
 	}
 
 	.img-box {
