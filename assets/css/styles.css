@@ -501,6 +501,14 @@ footer {
 	font-size: 22px;
 
 }
+.img-box {
+	width: 100%;
+	overflow: hidden;
+	background-size: contain;
+	/* background-image: none; */
+	object-fit: cover;
+	background-position: center;
+}
 
 .img-box img {
 	height: 400px;
