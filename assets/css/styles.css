@@ -507,8 +507,8 @@ footer {
 	width: 40%;
 	overflow: hidden;
 
-	aspect-ratio:9/14;
-	border: 2px solid;
+	/* aspect-ratio:9/14; */
+	/* border: 2px solid; */
 	/* display: flex; */
 	/* align-items: center; */
 	/* height: 200px;
