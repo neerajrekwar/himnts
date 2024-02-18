@@ -502,12 +502,6 @@ footer {
 
 }
 
-.img-box {
-	height: 300px;
-	width: 40%;
-	overflow: hidden;
-}
-
 .img-box img {
 	height: auto;
 	width: 100%;
