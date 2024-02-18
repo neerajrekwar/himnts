@@ -502,6 +502,7 @@ footer {
 
 }
 .img-box {
+	height: 400px;
 	width: 40%;
 	overflow: hidden;
 	background-size: contain;
