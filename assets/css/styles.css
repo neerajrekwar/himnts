@@ -488,6 +488,7 @@ footer {
 .context-box {
 	margin: 10px;
 	font-size: 2.1em;
+	width: 60%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -503,14 +504,14 @@ footer {
 
 .img-box {
 	height: 300px;
-	width: 100%;
+	width: 40%;
 	overflow: hidden;
 
-	/* aspect-ratio:9/14; */
-	/* border: 2px solid; */
+	aspect-ratio:9/14;
+	border: 2px solid;
 	/* display: flex; */
 	/* align-items: center; */
-	/* height: 200px; */
+	/* height: 200px;
 
 }
 
