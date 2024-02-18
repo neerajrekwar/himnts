@@ -813,11 +813,11 @@ strong {
 
 .himnts-intro {
 	background: -webkit-linear-gradient(50deg, hsla(33, 100%, 87%, 1) 0%, hsla(58, 95%, 77%, 1) 98%);
-    width: 80%;
-    margin: 0 auto;
-    padding: 5px 15px;
-    border-radius: 50px;
-    font-size: 13px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 5px 15px;
+	border-radius: 50px;
+	font-size: 13px;
 }
 
 .addon-container {
@@ -932,16 +932,18 @@ strong {
 		font-size: 2.1em;
 		width: 100%;
 	}
-	
+
 
 	.img-box {
-		/* height: 555px; */
+		height: 400px;
 		max-width: 100%;
 		overflow: hidden;
 		background-size: contain;
 		/* background-image: none; */
 		object-fit: cover;
+		background-position: center;
 	}
+
 
 	/* .sub-h1x {
 		font-size: 3.2em;
