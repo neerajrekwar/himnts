@@ -501,11 +501,9 @@ footer {
 	font-size: 22px;
 
 }
-.img-box{
-	height: 400px;
-}
+
 .img-box img {
-	height: auto;
+	height: 400px;
 	width: 100%;
 
 }
