@@ -907,12 +907,13 @@ strong {
 
 
 	.information {
-		/* border: .001px solid #bbbbbb; */
+		/* border: 0.001px solid #bbbbbb; */
 		margin: 0;
-		padding: 10% 3px;
+		/* padding: 10% 3px; */
 		/* aspect-ratio: 6/9; */
 		/* height: 200px; */
-		margin: 5% 0;
+		margin: 33% 0 0;
+		backdrop-filter: blur(4px);
 
 	}
 
