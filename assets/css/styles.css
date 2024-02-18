@@ -501,7 +501,9 @@ footer {
 	font-size: 22px;
 
 }
-
+.img-box{
+	height: 400px;
+}
 .img-box img {
 	height: auto;
 	width: 100%;
@@ -935,8 +937,7 @@ strong {
 
 
 	.img-box {
-		height: 400px;
-		max-width: 100%;
+		width: 100%;
 		overflow: hidden;
 		background-size: contain;
 		/* background-image: none; */
