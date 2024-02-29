@@ -171,6 +171,7 @@ main {}
 }
 
 .headline {
+	background-image: url(/src/bg-tem/circle-scatter-haikei.svg);
 	width: 100%;
 	text-align: left;
 	font-size: 18px;
