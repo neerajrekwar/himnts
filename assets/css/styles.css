@@ -155,7 +155,7 @@ main {}
 	margin: 15px;
 	display: flex;
 	align-items: center;
-	height: 85px;
+	font-size: larger;
 	text-decoration: none;
 	color: #000;
 }
@@ -501,6 +501,7 @@ footer {
 	font-size: 22px;
 
 }
+
 .img-box {
 	height: 400px;
 	width: 40%;
@@ -822,12 +823,12 @@ strong {
 
 .himnts-intro {
 	background: -webkit-linear-gradient(50deg, hsla(33, 100%, 87%, 1) 0%, hsla(58, 95%, 77%, 1) 98%);
-    width: fit-content;
-    margin: 0 auto;
-    max-width: 80%;
-    padding: 5px 15px;
-    border-radius: 50px;
-    font-size: 13px;
+	width: fit-content;
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 5px 15px;
+	border-radius: 50px;
+	font-size: 13px;
 }
 
 .addon-container {
