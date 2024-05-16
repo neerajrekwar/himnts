@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "source": "him24",
+    "source": "demo-app",
     "ignore": [
       "firebase.json",
       "**/.*",
