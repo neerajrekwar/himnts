@@ -2,16 +2,13 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
-import { IconShoppingCart } from "@tabler/icons-react";
-
-
+import { IconCalendarPlus } from "@tabler/icons-react";
 
 export function NavbarDemo() {
   return (
     <div className="relative w-full flex m-auto max-w-full items-center  justify-center">
-      <Navbar className="top-10 m-auto max-w-full  md:top-4 lg:top-6" />
-      <p className="text-black dark:text-white ">
+      <Navbar className="top-6 m-auto max-w-full  md:top-8 lg:top-10" />
+      <p className="text-black dark:text-white text-center w-full ">
         The Navbar will show on top of the page
       </p>
     </div>
@@ -24,8 +21,7 @@ function Navbar({ className }: { className?: string }) {
     <div
       className={cn("fixed flex px-4 justify-between items-center top-10 inset-x-0  max-w-2xl mx-auto z-50", className)}
     >
-    
-        <div className="flex-none">fdas</div>
+        <div className="flex-none">himnts</div>
         <Menu setActive={setActive}>
           <MenuItem setActive={setActive} active={active} item="Services">
             <div className="flex flex-col space-y-4 text-sm">
@@ -75,7 +71,7 @@ function Navbar({ className }: { className?: string }) {
             </div>
           </MenuItem>
         </Menu>
-        <div className="flex-none"><IconShoppingCart/></div>
+        <div className="flex-none"><IconCalendarPlus/></div>
     </div>
   );
 }
