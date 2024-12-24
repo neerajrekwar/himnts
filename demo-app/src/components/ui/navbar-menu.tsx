@@ -92,8 +92,8 @@ export const ProductItem = ({
     <Link href={href} className="flex space-x-2">
       <Image
         src={src}
-        width={140}
-        height={70}
+        width={130}
+        height={60}
         alt={title}
         className="flex-shrink-0 rounded-md shadow-2xl"
       />

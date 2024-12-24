@@ -7,7 +7,7 @@ import { IconCalendarPlus } from "@tabler/icons-react";
 export function NavbarDemo() {
   return (
     <div className="relative w-full flex m-auto max-w-full items-center  justify-center">
-      <Navbar className="top-6 m-auto max-w-full  md:top-8 lg:top-10" />
+      <Navbar className="top-7 m-auto max-w-full" />
       <p className="text-black dark:text-white text-center w-full ">
         The Navbar will show on top of the page
       </p>
@@ -32,7 +32,7 @@ function Navbar({ className }: { className?: string }) {
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Products">
-            <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+            <div className=" border border-yellow-500 text-sm right-1 grid sm:grid-cols-2 gap-10 p-4">
               <ProductItem
                 title="Algochurn"
                 href="https://algochurn.com"

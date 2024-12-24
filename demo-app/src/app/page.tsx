@@ -1,9 +1,15 @@
 import HomeProducts from "@/components/HomeProducts";
+import IntroSection from "@/components/IntroSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen  flex-col items-center justify-center p-24">
-      <HomeProducts/>
+    <main className="min-h-screen  flex-col flex items-center justify-between py-24">
+      <section>
+        <IntroSection/>
+      </section>
+      <section>
+        <HomeProducts />
+      </section>
     </main>
   );
 }
