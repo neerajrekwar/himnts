@@ -8,9 +8,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/components/(card|ripple).js"
   ],
-  darkMode: ["class", "class"],
+  darkMode: "class",
   theme: {
   	extend: {
+		fontFamily: {
+			sans: ["var(--font-sans)"],
+			mono: ["var(--font-mono)"],
+		  },
   		backgroundImage: {
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'

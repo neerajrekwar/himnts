@@ -6,10 +6,10 @@ export function FlipWordsDemo() {
 
   return (
     <div className="h-96 flex justify-center items-center px-4">
-      <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-        Build
+      <div className="text-4xl max-w-xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+      himnts is
         <FlipWords words={words} /> <br />
-        websites with Aceternity UI
+        Exquisite balloon artistry for discerning clients
       </div>
     </div>
   );

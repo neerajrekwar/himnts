@@ -3,10 +3,11 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import { IconCalendarPlus } from "@tabler/icons-react";
+import { ThemeSwitch } from "./ThemeSwitcher";
 
 export function NavbarDemo() {
   return (
-    <div className="relative w-full flex m-auto max-w-full items-center  justify-center">
+    <div className="relative w-full  flex m-auto max-w-full items-center  justify-center">
       <Navbar className="top-7 m-auto max-w-full" />
       <p className="text-black dark:text-white text-center w-full ">
         The Navbar will show on top of the page
@@ -19,7 +20,7 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed flex px-4 justify-between items-center top-10 inset-x-0  max-w-2xl mx-auto z-50", className)}
+      className={cn("fixed backdrop-blur-sm flex px-4 justify-between items-center top-10 inset-x-0  max-w-2xl mx-auto z-50", className)}
     >
         <div className="flex-none">himnts</div>
         <Menu setActive={setActive}>
@@ -71,7 +72,9 @@ function Navbar({ className }: { className?: string }) {
             </div>
           </MenuItem>
         </Menu>
-        <div className="flex-none"><IconCalendarPlus/></div>
+        <div className="flex">
+        <ThemeSwitch />
+          <IconCalendarPlus/></div>
     </div>
   );
 }
