@@ -1,5 +1,4 @@
 import { Card, CardHeader, CardFooter, Image, Button, Chip } from "@nextui-org/react";
-
 import { IconBalloonFilled } from "@tabler/icons-react";
 
 export default function HomeProcucts() {
