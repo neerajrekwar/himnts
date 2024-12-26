@@ -5,12 +5,16 @@ export const siteConfig = {
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
+      lagel: "himnts instagram",
+      href: "/instagram.com",
+    },
+    {
       label: "Home",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Offers",
+      href: "/offers",
     },
     {
       label: "Pricing",
@@ -60,9 +64,10 @@ export const siteConfig = {
     },
   ],
   links: {
+    instagram: "https://www.instagram.com/himnts_balloons/",
     github: "https://github.com/nextui-org/nextui",
     twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui.org",
+    offer: "/offers",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
   },
