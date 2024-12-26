@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 
 import { title, subtitle } from "@/components/primitives";
 
-import {IconBrandInstagramFilled} from "@tabler/icons-react";
+import { IconBrandInstagramFilled }  from "@tabler/icons-react";
 
 import HomeProcucts from "@/components/HomeProducts";
 
