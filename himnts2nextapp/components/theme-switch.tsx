@@ -1,36 +1,93 @@
 "use client";
 
+import { FC, useEffect, useState } from "react";
+import { VisuallyHidden } from "@react-aria/visually-hidden";
+import { SwitchProps, useSwitch } from "@nextui-org/switch";
 import { useTheme } from "next-themes";
-import { FC } from "react";
 import clsx from "clsx";
+
 import { SunFilledIcon, MoonFilledIcon } from "@/components/icons";
 
 export interface ThemeSwitchProps {
   className?: string;
+  classNames?: SwitchProps["classNames"];
 }
 
-export const ThemeSwitch: FC<ThemeSwitchProps> = ({ className }) => {
+export const ThemeSwitch: FC<ThemeSwitchProps> = ({
+  className,
+  classNames,
+}) => {
   const { theme, setTheme } = useTheme();
+  const [isMounted, setIsMounted] = useState(false);
 
-  const handleThemeToggle = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+  // Set isMounted to true after component mounts to avoid SSR mismatch
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  const onChange = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
   };
 
+  const {
+    Component,
+    slots,
+    isSelected,
+    getBaseProps,
+    getInputProps,
+    getWrapperProps,
+  } = useSwitch({
+    isSelected: theme === "light" || !isMounted,  // Handle SSR safely
+    "aria-label": `Switch to ${theme === "light" ? "dark" : "light"} mode`,
+    onChange,
+  });
+
+  if (!isMounted) {
+    return null; // Prevent rendering mismatch during SSR
+  }
+
   return (
-    <button
-      onClick={handleThemeToggle}
-      className={clsx(
-        "flex items-center justify-center w-10 h-10 rounded-full transition-colors",
-        theme === "light" ? "bg-yellow-500" : "bg-gray-800",
-        className
-      )}
-      aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
+    <Component
+      {...getBaseProps({
+        className: clsx(
+          "px-px transition-opacity hover:opacity-80 cursor-pointer",
+          className,
+          classNames?.base,
+        ),
+      })}
     >
-      {theme === "light" ? (
-        <SunFilledIcon size={24} />
-      ) : (
-        <MoonFilledIcon size={24} />
-      )}
-    </button>
+      <VisuallyHidden>
+        <input {...getInputProps()} />
+      </VisuallyHidden>
+      <div
+        {...getWrapperProps()}
+        className={slots.wrapper({
+          class: clsx(
+            [
+              "w-auto h-auto",
+              "bg-transparent",
+              "rounded-lg",
+              "flex items-center justify-center",
+              "group-data-[selected=true]:bg-transparent",
+              "!text-default-500",
+              "pt-px",
+              "px-0",
+              "mx-0",
+            ],
+            classNames?.wrapper,
+          ),
+        })}
+      >
+        {!isSelected ? (
+          <SunFilledIcon size={22} />
+        ) : (
+          <MoonFilledIcon size={22} />
+        )}
+      </div>
+    </Component>
   );
 };
