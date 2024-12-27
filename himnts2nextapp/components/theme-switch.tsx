@@ -1,9 +1,10 @@
 "use client";
 
-import { FC, useEffect, useState } from "react";
+import { FC } from "react";
 import { VisuallyHidden } from "@react-aria/visually-hidden";
 import { SwitchProps, useSwitch } from "@nextui-org/switch";
 import { useTheme } from "next-themes";
+import { useIsSSR } from "@react-aria/ssr";
 import clsx from "clsx";
 
 import { SunFilledIcon, MoonFilledIcon } from "@/components/icons";
@@ -18,14 +19,10 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
   classNames,
 }) => {
   const { theme, setTheme } = useTheme();
-  const [isMounted, setIsMounted] = useState(false);
-
-  // Set isMounted to true after component mounts to avoid SSR mismatch
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  const isSSR = useIsSSR(); // Detect if the code is running on the server
 
   const onChange = () => {
+    // Toggle theme between light and dark
     if (theme === "light") {
       setTheme("dark");
     } else {
@@ -41,14 +38,11 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
     getInputProps,
     getWrapperProps,
   } = useSwitch({
-    isSelected: theme === "light" || !isMounted,  // Handle SSR safely
-    "aria-label": `Switch to ${theme === "light" ? "dark" : "light"} mode`,
+    // Set the initial selection state, account for SSR status
+    isSelected: theme === "light" || isSSR,
+    "aria-label": `Switch to ${theme === "light" || isSSR ? "dark" : "light"} mode`,
     onChange,
   });
-
-  if (!isMounted) {
-    return null; // Prevent rendering mismatch during SSR
-  }
 
   return (
     <Component
@@ -82,7 +76,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
           ),
         })}
       >
-        {!isSelected ? (
+        {!isSelected || isSSR ? (
           <SunFilledIcon size={22} />
         ) : (
           <MoonFilledIcon size={22} />
