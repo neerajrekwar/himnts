@@ -25,7 +25,7 @@ export default function BookingForm() {
 
       const data = await res.json();
       if (res.ok) {
-        setMessage(`Booking queued successfully!`);
+        setMessage(`Booking queued successfully! Reference ID: ${data.id}`);
         setForm({ name: '', date: '', time: '', eventDetails: '' });
       } else {
         setMessage(data.error || 'Failed to queue booking');

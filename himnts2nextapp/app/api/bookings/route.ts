@@ -21,15 +21,9 @@ export async function POST(request: Request) {
       body,
     });
 
-    if (!response) {
-      throw new Error('Failed to queue booking');
-    }
-
-    return NextResponse.json({ message: 'Booking queued successfully' });
-  } catch (error: any) {
-    return NextResponse.json(
-      { error: error.message || 'Failed to queue booking' },
-      { status: 500 }
-    );
+    return NextResponse.json({ message: 'Booking queued successfully', id: response.messageId });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Unknown error occurred';
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
