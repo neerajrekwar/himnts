@@ -1,7 +1,11 @@
+import packages from "@/public/packages/package.json"
+
 export default function Packages(){
     return(
         <section>
-            hello packages
+           {packages.map((package)) => (
+            <div key={pack}></div>
+           ) : ()}
         </section>
     )
 }
