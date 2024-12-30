@@ -10,9 +10,9 @@ export async function POST(request: Request) {
   try {
     const body: Booking = await request.json();
 
-    const { name, date, time, eventDetails } = body;
+    const { name, email, date, time, packageName } = body;
 
-    if (!name || !date || !time || !eventDetails) {
+    if (!name || !email || !date || !time || !packageName) {
       return NextResponse.json({ error: 'All fields are required' }, { status: 400 });
     }
 
