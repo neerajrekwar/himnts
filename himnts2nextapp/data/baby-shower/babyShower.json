@@ -1,0 +1,16 @@
+{
+    "eventType": "birthday",
+    "packages": [
+      {
+        "variant": "joyful",
+        "title": "Joyful Birthday Package",
+        "description": "A joyful and vibrant birthday package."
+      },
+      {
+        "variant": "delight",
+        "title": "Delight Birthday Package",
+        "description": "A delightful birthday experience with balloons."
+      }
+    ]
+  }
+  

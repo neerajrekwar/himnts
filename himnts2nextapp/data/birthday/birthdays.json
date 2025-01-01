@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "slug": "birthday",
+    "description": "loren",
+    "packageName": "Birthday",
+    "packageSlug": "birthday",
+    "title": "Birthday Celebration",
+    "img": "/data/packageImages/1.jpg",
+    "content": {
+      "ctn": [
+        {
+          "id": "subh1",
+          "heading3": "Joyful"
+        },
+        {
+          "id": "subh2",
+          "heading3": "Delight"
+        },
+        {
+          "id": "subh3",
+          "heading3": "Extravaganza"
+        },
+        {
+          "id": "p1",
+          "paraChildPara": "Life is a celebration with ups and downs, and we help make your birthdays unforgettable."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "packageName": "Baby Shower",
+    "packageSlug": "baby-shower",
+    "title": "Welcoming New Life",
+    "img": "/data/packageImages/2.jpg",
+    "content": {
+      "ctn": [
+        {
+          "id": "subh1",
+          "heading3": "del"
+        },
+        {
+          "id": "subh2",
+          "heading3": "Delight"
+        },
+        {
+          "id": "subh3",
+          "heading3": "Extravaganza"
+        },
+        {
+          "id": "p1",
+          "paraChildPara": "Celebrate the arrival of a new member with a memorable baby shower."
+        }
+      ]
+    }
+  }
+]
