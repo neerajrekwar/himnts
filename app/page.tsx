@@ -6,23 +6,25 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
-import {HomeProducts} from "@/components/HomeProducts";
+import { HomeProducts } from "@/components/HomeProducts";
+import { IconBrandInstagramFilled } from "@tabler/icons-react";
 
 export default function Home() {
   return (
     <main className="m-auto">
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      <div className="inline-block max-w-xl text-center justify-center">
-        <span className={title()}>Make&nbsp;</span>
-        <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
-        <br />
-        <span className={title()}>
-          websites regardless of your design experience.
-        </span>
-        <div className={subtitle({ class: "mt-4" })}>
-          Beautiful, fast and modern React UI library.
+        <div className="inline-block max-w-xl text-center justify-center">
+          <span className={title()}>Make&nbsp;</span>
+          <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
+          <br />
+          <span className={title()}>
+            Unforgettable Memories Float into Happiness with Himnts Balloon
+            Designs!.
+          </span>
+          <div className={subtitle({ class: "mt-4" })}>
+            Himnts: Adding Color, Charm, and Cheer to Every Moment.
+          </div>
         </div>
-      </div>
 
         <div className="flex gap-3">
           <Link
@@ -32,24 +34,24 @@ export default function Home() {
               radius: "full",
               variant: "shadow",
             })}
-            href={siteConfig.links.docs}
+            href={siteConfig.links.offers}
           >
-            Documentation
+            Offers
           </Link>
           <Link
             isExternal
             className={buttonStyles({ variant: "bordered", radius: "full" })}
-            href={siteConfig.links.github}
+            href={siteConfig.links.instagram}
           >
-            <GithubIcon size={20} />
-            GitHub
+            <IconBrandInstagramFilled size={20} />
+            Instagram
           </Link>
         </div>
 
         <div className="mt-8">
           <Snippet hideCopyButton hideSymbol variant="bordered">
             <span>
-              Get started by editing <Code color="primary">app/page.tsx</Code>
+              Get started by himnts <Code color="primary">We're genuine</Code>
             </span>
           </Snippet>
         </div>
