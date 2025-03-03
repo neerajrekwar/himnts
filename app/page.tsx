@@ -21,7 +21,7 @@ export default function Home() {
             Designs!.
           </span>
           <div className={subtitle({ class: "mt-4" })}>
-            Himnts: Adding Color, Charm, and Cheer to Every Moment.
+            Himnts Adding Color, Charm, and Cheer to Every Moment.
           </div>
         </div>
 
