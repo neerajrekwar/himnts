@@ -19,12 +19,12 @@ import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
   TwitterIcon,
-  GithubIcon,
   DiscordIcon,
   HeartFilledIcon,
   SearchIcon,
   Logo,
 } from "@/components/icons";
+import { IconBrandInstagramFilled } from "@tabler/icons-react";
 
 export const Navbar = () => {
   const searchInput = (
@@ -63,7 +63,7 @@ export const Navbar = () => {
               <NextLink
                 className={clsx(
                   linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium",
+                  "data-[active=true]:text-primary data-[active=true]:font-medium"
                 )}
                 color="foreground"
                 href={item.href}
@@ -86,8 +86,12 @@ export const Navbar = () => {
           <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
             <DiscordIcon className="text-default-500" />
           </Link>
-          <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-            <GithubIcon className="text-default-500" />
+          <Link
+            isExternal
+            aria-label="Github"
+            href={siteConfig.links.instagram}
+          >
+            <IconBrandInstagramFilled className="text-default-500" />
           </Link>
           <ThemeSwitch />
         </NavbarItem>
@@ -107,8 +111,8 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-          <GithubIcon className="text-default-500" />
+        <Link isExternal aria-label="Github" href={siteConfig.links.instagram}>
+          <IconBrandInstagramFilled className="text-default-500" />
         </Link>
         <ThemeSwitch />
         <NavbarMenuToggle />
@@ -124,8 +128,8 @@ export const Navbar = () => {
                   index === 2
                     ? "primary"
                     : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
+                    ? "danger"
+                    : "foreground"
                 }
                 href="#"
                 size="lg"
