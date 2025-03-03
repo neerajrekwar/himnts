@@ -5,7 +5,6 @@ import { button as buttonStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
 import { HomeProducts } from "@/components/HomeProducts";
 import { IconBrandInstagramFilled } from "@tabler/icons-react";
 
@@ -51,7 +50,8 @@ export default function Home() {
         <div className="mt-8">
           <Snippet hideCopyButton hideSymbol variant="bordered">
             <span>
-              Get started by himnts <Code color="primary">We're genuine</Code>
+              Get started by himnts{" "}
+              <Code color="primary">We&apos;re genuine</Code>
             </span>
           </Snippet>
         </div>
