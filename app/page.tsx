@@ -17,7 +17,7 @@ export default function Home() {
           <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
           <br />
           <span className={title()}>
-            Unforgettable Memories Float into Happiness with Himnts Balloon
+            Unforgettable Memories Spectacle into Happiness with Himnts Balloon
             Designs!.
           </span>
           <div className={subtitle({ class: "mt-4" })}>
